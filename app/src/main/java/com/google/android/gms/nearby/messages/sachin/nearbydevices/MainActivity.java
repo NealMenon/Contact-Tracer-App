@@ -30,6 +30,8 @@ import com.google.android.gms.nearby.messages.PublishOptions;
 import com.google.android.gms.nearby.messages.Strategy;
 import com.google.android.gms.nearby.messages.SubscribeCallback;
 import com.google.android.gms.nearby.messages.SubscribeOptions;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -204,6 +206,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         if (mSubscribeSwitch.isChecked()) {
             subscribe();
         }
+        for (int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
+            String key = mNearbyDevicesArrayAdapter.getItem(i);
+            Interaction interaction = new Interaction(key, 300, 3,  new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date()));
+            interactionRepository.insertInteraction(interaction);
+        }
+        mNearbyDevicesArrayAdapter = null;
+
     }
     private void subscribe() {
         Log.i(TAG, "Subscribing");
