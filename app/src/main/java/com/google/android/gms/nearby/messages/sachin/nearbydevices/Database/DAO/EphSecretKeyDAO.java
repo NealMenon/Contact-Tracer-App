@@ -23,8 +23,8 @@ public interface EphSecretKeyDAO {
     @Delete
     void deleteEphSecretKey(EphSecretKey ephSecretKey);
 
-//    @Query("SELECT * FROM ephsecretkeys_table WHERE id=:ephSKID")
-//    List<EphSecretKey> getEphSecretKeyById(int ephSKID);
+    @Query("SELECT EphSecretKey  FROM ephsecretkeys_table WHERE id=:ephSKID")
+    String getEphSecretKeyById(int ephSKID);
 
     @Query("SELECT * FROM ephsecretkeys_table")
     List<EphSecretKey> getAllEphSecretKeys();

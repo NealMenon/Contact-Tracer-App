@@ -36,9 +36,10 @@ public class DeviceMessage {
 
     public String getMessageBody(TracerDatabase tracerDB) {
         EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
-        String randomKey = ephSecretKeyDAO.getRandomEphSK();
+//        String randomKey = ephSecretKeyDAO.getRandomEphSK();
+        String randomKey = ephSecretKeyDAO.getEphSecretKeyById(1);
         Log.d("DatabaseTest", "The return EphSK is " + randomKey);
-        ephSecretKeyDAO.deleteEphSecretKeyByValue(randomKey);
+//        ephSecretKeyDAO.deleteEphSecretKeyByValue(randomKey);
         return randomKey;
     }
 }

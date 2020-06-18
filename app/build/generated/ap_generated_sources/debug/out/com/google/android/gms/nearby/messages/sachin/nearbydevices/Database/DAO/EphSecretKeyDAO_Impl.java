@@ -163,6 +163,28 @@ public final class EphSecretKeyDAO_Impl implements EphSecretKeyDAO {
   }
 
   @Override
+  public String getEphSecretKeyById(final int ephSKID) {
+    final String _sql = "SELECT EphSecretKey  FROM ephsecretkeys_table WHERE id=?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    _statement.bindLong(_argIndex, ephSKID);
+    __db.assertNotSuspendingTransaction();
+    final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+    try {
+      final String _result;
+      if(_cursor.moveToFirst()) {
+        _result = _cursor.getString(0);
+      } else {
+        _result = null;
+      }
+      return _result;
+    } finally {
+      _cursor.close();
+      _statement.release();
+    }
+  }
+
+  @Override
   public List<EphSecretKey> getAllEphSecretKeys() {
     final String _sql = "SELECT * FROM ephsecretkeys_table";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);

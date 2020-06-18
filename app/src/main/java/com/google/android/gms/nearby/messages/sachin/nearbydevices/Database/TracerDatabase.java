@@ -111,6 +111,11 @@ public abstract class TracerDatabase extends RoomDatabase {
                 SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
                 secretKeyDao.insertSecretKey(new SecretKey());
 
+                EphSecretKeyDAO ephSecretKeyDao = tracerDB.ephSecretKeyDAO();
+                ephSecretKeyDao.insertEphSecretKey(new EphSecretKey("SecretKeyTestValue"));
+                secretKeyDao.insertSecretKey(new SecretKey());
+
+
                 tracerDB.generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
                 tracerDB.sleeperFunction();
 
@@ -159,7 +164,7 @@ public abstract class TracerDatabase extends RoomDatabase {
 
     protected void generateEphSecretKeys(String seed) {
         EphSecretKeyDAO ephSKdao = tracerDB.ephSecretKeyDAO();
-        ephSKdao.deleteAllEphSecretKeys();
+//        ephSKdao.deleteAllEphSecretKeys();
         String holder[] = new String[5];
         holder[0] = "";
 
@@ -169,16 +174,10 @@ public abstract class TracerDatabase extends RoomDatabase {
         holder[3] = holder[0].substring(48, 72);
         holder[4] = holder[0].substring(72);
 
-//        System.out.println("Left: " + holder[1] + " : " + holder[1].length());
-//        System.out.println("Mid1: " + holder[2] + " : " + holder[2].length());
-//        System.out.println("Mid2: " + holder[3] + " : " + holder[3].length());
-//        System.out.println("Right: " + holder[4] + " : " + holder[4].length());
-
         List<String> keys = new ArrayList<String>();
 
         for(int i = 1; i < 5; i++) {
             holder[0] = hash(holder[i]);
-//            System.out.println("Holder0: " + holder[0] + " : " + holder[0].length());
 
             keys.add(holder[0].substring(0, 16));
             keys.add(holder[0].substring(16, 32));
