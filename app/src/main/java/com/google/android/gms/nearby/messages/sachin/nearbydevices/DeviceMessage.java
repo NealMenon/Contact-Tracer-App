@@ -38,9 +38,7 @@ public class DeviceMessage {
 
     public String getMessageBody(EphSecretKeyRepository ephSecretKeyRepository) {
         String randomKey = ephSecretKeyRepository.getRandomEphSK();
-
-
-
+        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Insert new  EPHSK ###SUCCESS###"));
 //        EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
 //        ephSecretKeyDAO.insertEphSecretKey(new EphSecretKey("This is a random test"));
 //        String randomKey = ephSecretKeyDAO.getRandomEphSK();

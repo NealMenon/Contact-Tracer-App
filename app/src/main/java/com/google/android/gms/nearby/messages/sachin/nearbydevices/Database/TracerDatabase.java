@@ -108,15 +108,15 @@ public abstract class TracerDatabase extends RoomDatabase {
             databaseWriteExecutor.execute(() -> {
                 Log.d("DatabaseTest", "Inside execute");
 
-                SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
-                secretKeyDao.insertSecretKey(new SecretKey());
-
-                EphSecretKeyDAO ephSecretKeyDao = tracerDB.ephSecretKeyDAO();
-                ephSecretKeyDao.insertEphSecretKey(new EphSecretKey("SecretKeyTestValue"));
-                secretKeyDao.insertSecretKey(new SecretKey());
-
-
-                tracerDB.generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
+//                SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
+//                secretKeyDao.insertSecretKey(new SecretKey());
+//
+//                EphSecretKeyDAO ephSecretKeyDao = tracerDB.ephSecretKeyDAO();
+//                ephSecretKeyDao.insertEphSecretKey(new EphSecretKey("SecretKeyTestValue"));
+//                secretKeyDao.insertSecretKey(new SecretKey());
+//
+//
+//                tracerDB.generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
                 tracerDB.sleeperFunction();
 
             });
@@ -137,12 +137,17 @@ public abstract class TracerDatabase extends RoomDatabase {
 //        }
     };
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     private void sleeperFunction() {
         final Handler handler = new Handler(Looper.getMainLooper());
         SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
         EphSecretKeyDAO ephSKdao = tracerDB.ephSecretKeyDAO();
+
+        secretKeyDao.insertSecretKey(new SecretKey());
+//        ephSKdao.insertEphSecretKey(new EphSecretKey("FirstSecretKeyTestValue"));
+        generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
+
         Runnable runnable = new Runnable() {
-            @RequiresApi(api = Build.VERSION_CODES.O)
             public void run() {
 
                 /* Function adds new SecretKey every 30 seconds
@@ -150,16 +155,17 @@ public abstract class TracerDatabase extends RoomDatabase {
                  * Then calls genEphSK, which clears table and generates new
                  */
 
-                Log.d("Data", "Reached the handler functoion");
+                handler.postDelayed(this, 30000);
+                Log.d("Data", "Reached the handler function");
                 secretKeyDao.insertSecretKey(new SecretKey(secretKeyDao.getLastSecretKey()));
                 generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
 
 
-                handler.postDelayed(this, 10000);
+
 
             }
         };
-        runnable.run();
+//        runnable.run(); // Uncomment this to generate newer keys
     }
 
     protected void generateEphSecretKeys(String seed) {

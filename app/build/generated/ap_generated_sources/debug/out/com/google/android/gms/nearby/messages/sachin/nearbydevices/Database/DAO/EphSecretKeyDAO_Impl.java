@@ -213,7 +213,7 @@ public final class EphSecretKeyDAO_Impl implements EphSecretKeyDAO {
 
   @Override
   public String getRandomEphSK() {
-    final String _sql = "SELECT EphSecretKey FROM ephsecretkeys_table WHERE id=(SELECT MAX(id) from ephsecretkeys_table)";
+    final String _sql = "SELECT EphSecretKey FROM ephsecretkeys_table ORDER BY RANDOM() LIMIT 1";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     __db.assertNotSuspendingTransaction();
     final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
