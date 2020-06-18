@@ -1,5 +1,7 @@
 //package com.example.conttracerappdbtest.Database.Model;
 package com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model;
+import android.util.Log;
+
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

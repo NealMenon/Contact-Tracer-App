@@ -11,7 +11,8 @@ public interface EphSecretKeyDataSourceInterface {
     void insertEphSecretKey(EphSecretKey ephSecretKey);
     void updateEphSecretKey(EphSecretKey ephSecretKey);
     void deleteEphSecretKey(EphSecretKey ephSecretKey);
-    List<EphSecretKey> getEphSecretKeyById(int ephSKID);
+    String getEphSecretKeyById(int ephSKID);
+    String getRandomEphSK();
     List<EphSecretKey> getAllEphSecretKeys();
     void deleteAllEphSecretKeys();
 

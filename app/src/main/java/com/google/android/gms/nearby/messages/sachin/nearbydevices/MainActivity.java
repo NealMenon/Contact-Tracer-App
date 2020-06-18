@@ -37,9 +37,14 @@ import java.util.List;
 import java.util.UUID;
 import android.content.Intent;
 import android.os.AsyncTask;
+
+import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.EphSecretKeyDAO;
+import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DataSource.EphSecretKeyDataSource;
 import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DataSource.InteractionDataSource;
+import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.EphSecretKey;
 import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.Interaction;
 import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.SecretKey;
+import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Repository.EphSecretKeyRepository;
 import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Repository.InteractionRepository;
 import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.TracerDatabase;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -77,6 +82,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     }
     private TracerDatabase tracerDB;
     private InteractionRepository interactionRepository;
+    private EphSecretKeyRepository ephSecretKeyRepository;
+
+
     private GoogleApiClient mGoogleApiClient;
     private SwitchCompat mPublishSwitch;
     private SwitchCompat mSubscribeSwitch;
@@ -93,6 +101,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         tracerDB = TracerDatabase.getInstance(MainActivity.this);  // THIS BLOCK CREATES THE DATABASE. INCLUDE IN MAIN ACTIVITY
         interactionRepository = InteractionRepository.getInstance(InteractionDataSource.getInstance(tracerDB.interactionDAO()));
         interactionRepository.getAllInteractions(); // This actually confirms build of DB
+        ephSecretKeyRepository = EphSecretKeyRepository.getInstance(EphSecretKeyDataSource.getInstance(tracerDB.ephSecretKeyDAO()));
+
+
+
+//        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(tracerDB);
+//        String test = new DeviceMessage(new Message()).getMessageBody();
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -123,13 +137,15 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
             @Override
             public void onFound(final Message message) {
                 mNearbyDevicesArrayAdapter.add(
-                        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(tracerDB));
+                        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
+                EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
+                ephSecretKeyDAO.insertEphSecretKey(new EphSecretKey("This is a random test"));
             }
 
             @Override
             public void onLost(final Message message) {
                 mNearbyDevicesArrayAdapter.remove(
-                        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(tracerDB));
+                        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
             }
         };
 

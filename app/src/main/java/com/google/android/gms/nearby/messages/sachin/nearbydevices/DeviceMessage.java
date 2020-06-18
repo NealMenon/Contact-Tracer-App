@@ -4,6 +4,8 @@ import android.util.Log;
 
 import com.google.android.gms.nearby.messages.Message;
 import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.EphSecretKeyDAO;
+import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.EphSecretKey;
+import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Repository.EphSecretKeyRepository;
 import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.TracerDatabase;
 import com.google.gson.Gson;
 
@@ -34,12 +36,18 @@ public class DeviceMessage {
         mMessageBody = Build.MODEL;
     }
 
-    public String getMessageBody(TracerDatabase tracerDB) {
-        EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
+    public String getMessageBody(EphSecretKeyRepository ephSecretKeyRepository) {
+        String randomKey = ephSecretKeyRepository.getRandomEphSK();
+
+
+
+//        EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
+//        ephSecretKeyDAO.insertEphSecretKey(new EphSecretKey("This is a random test"));
 //        String randomKey = ephSecretKeyDAO.getRandomEphSK();
-        String randomKey = ephSecretKeyDAO.getEphSecretKeyById(1);
+//        String randomKey = ephSecretKeyDAO.getEphSecretKeyById(1);
         Log.d("DatabaseTest", "The return EphSK is " + randomKey);
 //        ephSecretKeyDAO.deleteEphSecretKeyByValue(randomKey);
         return randomKey;
+
     }
 }

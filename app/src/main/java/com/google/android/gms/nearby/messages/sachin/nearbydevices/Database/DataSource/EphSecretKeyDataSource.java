@@ -31,26 +31,31 @@ public class EphSecretKeyDataSource implements EphSecretKeyDataSourceInterface {
 
     @Override
     public void updateEphSecretKey(EphSecretKey ephSecretKey) {
-//        ephSecretKeys.up
+        ephSecretKeyDAO.updateEphSecretKeys(ephSecretKey);
     }
 
     @Override
     public void deleteEphSecretKey(EphSecretKey ephSecretKey) {
-
+        ephSecretKeyDAO.deleteEphSecretKey(ephSecretKey);
     }
 
     @Override
-    public List<EphSecretKey> getEphSecretKeyById(int ephSKID) {
-        return null;
+    public String getEphSecretKeyById(int ephSKID) {
+        return ephSecretKeyDAO.getEphSecretKeyById(ephSKID);
+    }
+
+    @Override
+    public String getRandomEphSK() {
+        return ephSecretKeyDAO.getRandomEphSK();
     }
 
     @Override
     public List<EphSecretKey> getAllEphSecretKeys() {
-        return null;
+        return ephSecretKeyDAO.getAllEphSecretKeys();
     }
 
     @Override
     public void deleteAllEphSecretKeys() {
-
+        ephSecretKeyDAO.deleteAllEphSecretKeys();
     }
 }
