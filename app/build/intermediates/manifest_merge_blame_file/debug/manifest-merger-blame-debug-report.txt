@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.android.gms.nearby.messages.samples.nearbydevices"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:29:5-67
+11-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:29:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:5-76
+12-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:19:5-79
+13-->[com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:19:22-76
+14
+15    <application
+15-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:5:5-23:19
+16        android:allowBackup="true"
+16-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:6:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:8:9-41
+21        android:supportsRtl="true"
+21-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:9:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:10:9-40
+24        <meta-data
+24-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:12:9-14:71
+25            android:name="com.google.android.nearby.messages.API_KEY"
+25-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:13:13-70
+26            android:value="AIzaSyC3DeKUQjiEG5IiZWxnOn1gda9AFWHgNVc" />
+26-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:14:13-68
+27
+28        <activity android:name="com.google.android.gms.nearby.messages.sachin.nearbydevices.MainActivity" >
+28-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:16:9-22:20
+28-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:16:19-106
+29            <intent-filter>
+29-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:17:13-21:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:18:17-69
+30-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:18:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:20:17-77
+32-->/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:20:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:12:9-16:40
+37            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+37-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:13:13-69
+38            android:authorities="com.google.android.gms.nearby.messages.samples.nearbydevices.DebugDBInitProvider"
+38-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:14:13-71
+39            android:enabled="true"
+39-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:15:13-35
+40            android:exported="false" />
+40-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:16:13-37
+41
+42        <service
+42-->[androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:25:9-27:40
+43            android:name="androidx.room.MultiInstanceInvalidationService"
+43-->[androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:26:13-74
+44            android:exported="false" />
+44-->[androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:27:13-37
+45
+46        <activity
+46-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:20:9-22:45
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:20:19-85
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:22:19-43
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:21:19-78
+50
+51        <provider
+51-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:7:9-11:39
+52            android:name="com.google.firebase.provider.FirebaseInitProvider"
+52-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:9:13-58
+53            android:authorities="com.google.android.gms.nearby.messages.samples.nearbydevices.firebaseinitprovider"
+53-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:8:13-72
+54            android:exported="false"
+54-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:10:13-37
+55            android:initOrder="100" />
+55-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:11:13-36
+56
+57        <meta-data
+57-->[com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:21:9-23:69
+58            android:name="com.google.android.gms.version"
+58-->[com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:22:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:23:13-66
+60
+61        <provider
+61-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+63            android:authorities="com.google.android.gms.nearby.messages.samples.nearbydevices.lifecycle-process"
+63-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+64            android:exported="false"
+64-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+65            android:multiprocess="true" />
+65-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+66    </application>
+67
+68</manifest>

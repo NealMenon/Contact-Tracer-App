@@ -1,0 +1,30 @@
+
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+ext {
+    roomVersion = '2.2.1'
+    archLifecycleVersion = '2.2.0'
+    coreTestingVersion = '2.1.0'
+    materialVersion = '1.0.0'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

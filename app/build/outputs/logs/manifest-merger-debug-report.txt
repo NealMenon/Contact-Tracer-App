@@ -1,0 +1,342 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/696e9d0efc5898ded9439585e569dbfb/navigation-ui-ktx-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4a03f91da5c57f5d524d9384f6e18ebc/jetified-navigation-ui-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/37ec02f661e3547c5499ecdfd9f3cd1f/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:2:1-19:12
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:20:1-32:12
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:16:1-21:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e7f6f6d73de1836643c7170cea8cbaf8/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0d4366b3cfbaa48069fc6e06c64658b4/navigation-fragment-ktx-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/dd07e922b5233b833d82ee834e6becf7/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4c5bec5fee4faf9f7316c043f2b94aa6/jetified-play-services-tasks-9.0.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1964611a1907e3ea07b40ce4c516c284/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/abc680e55824c418c024460e31034ed4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/34085af895daa23049fd0af188e6a001/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ba2af06f417607d7ef1ca9f201a0d139/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/402e2fb3baa5e6ca3b4a0d7ccbd7cd5b/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/dd167f547cd1c0f30ad4616b108710fd/navigation-fragment-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b29410dc43325d5cbf1ff4ace0bcc266/fragment-ktx-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9769f5859f74fee92a159a120c1a97ee/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/beed28e19d4f55ab2c17aff66e0bc400/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e0d80e5c178a0db065288a448fc598ef/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/f3997ce16a5c00ae84a772d300d0e1e8/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/04087833f388d5ffa97a080d757646c2/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/eb11c4797d5d5b24d5dcbbebe26babf4/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/740a70a0c89c8c085b6e012b4bd7790e/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/31dc29ba3158cee4b1ca2bf2f6ff141b/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/331f61861c2d3a925f2252286afb1f53/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/864731227fc7977b33c0ddbaa38ce6e9/navigation-runtime-ktx-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/88766e9eacde4383ac44d520f97e2fad/navigation-runtime-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e1e698747bd641cc6a0139e2f99fad7b/activity-ktx-1.0.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/de06683d96412d89b8bbbf7e6b999dda/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/07505c986e12e687b7c74d1629244ece/navigation-common-ktx-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bbc81b1e485dca778464c54c5a1f217f/navigation-common-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/04a7b867e647e7eb31182562df2c795a/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/2dacdedacba9265ce7d335905357ebc3/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a122ffd4c0fe608c1613ec63d113b06d/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a74ec278edce9da3ecbff9a1cdf4887a/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/41aa050c27dd9b1a6a028e37b38caee9/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/384e1b5d703f7ead48bd253f34125353/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/81be015ee16d7afb6bf291abe682c377/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/049d2c70f00968fcb42e43317b0d8e71/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7acef2a7bfef3795312317efec15d83e/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/43152caf703bd370c9602fd486df1e8c/lifecycle-viewmodel-ktx-2.1.0-beta01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b04e51bce09da5abc9e72471e05ae96d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9c8616d74aa0ab3eb457d24b669c685/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ec682ca46f5c90ea9a9e0cba0c0310a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:3:5-74
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:5:5-23:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:11:5-17:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:20:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e7f6f6d73de1836643c7170cea8cbaf8/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e7f6f6d73de1836643c7170cea8cbaf8/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4c5bec5fee4faf9f7316c043f2b94aa6/jetified-play-services-tasks-9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4c5bec5fee4faf9f7316c043f2b94aa6/jetified-play-services-tasks-9.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9c8616d74aa0ab3eb457d24b669c685/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9c8616d74aa0ab3eb457d24b669c685/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:10:9-40
+meta-data#com.google.android.nearby.messages.API_KEY
+ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:12:9-14:71
+	android:value
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:14:13-68
+	android:name
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:13:13-70
+activity#com.google.android.gms.nearby.messages.sachin.nearbydevices.MainActivity
+ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:16:19-106
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/696e9d0efc5898ded9439585e569dbfb/navigation-ui-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/696e9d0efc5898ded9439585e569dbfb/navigation-ui-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4a03f91da5c57f5d524d9384f6e18ebc/jetified-navigation-ui-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4a03f91da5c57f5d524d9384f6e18ebc/jetified-navigation-ui-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/37ec02f661e3547c5499ecdfd9f3cd1f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/37ec02f661e3547c5499ecdfd9f3cd1f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:25:5-27:41
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e7f6f6d73de1836643c7170cea8cbaf8/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e7f6f6d73de1836643c7170cea8cbaf8/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0d4366b3cfbaa48069fc6e06c64658b4/navigation-fragment-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0d4366b3cfbaa48069fc6e06c64658b4/navigation-fragment-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/dd07e922b5233b833d82ee834e6becf7/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/dd07e922b5233b833d82ee834e6becf7/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bbc51c53aec70aeae5178e82f15e817a/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4c5bec5fee4faf9f7316c043f2b94aa6/jetified-play-services-tasks-9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4c5bec5fee4faf9f7316c043f2b94aa6/jetified-play-services-tasks-9.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:18:5-42
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1964611a1907e3ea07b40ce4c516c284/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1964611a1907e3ea07b40ce4c516c284/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/abc680e55824c418c024460e31034ed4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/abc680e55824c418c024460e31034ed4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/34085af895daa23049fd0af188e6a001/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/34085af895daa23049fd0af188e6a001/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ba2af06f417607d7ef1ca9f201a0d139/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ba2af06f417607d7ef1ca9f201a0d139/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/402e2fb3baa5e6ca3b4a0d7ccbd7cd5b/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/402e2fb3baa5e6ca3b4a0d7ccbd7cd5b/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/dd167f547cd1c0f30ad4616b108710fd/navigation-fragment-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/dd167f547cd1c0f30ad4616b108710fd/navigation-fragment-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b29410dc43325d5cbf1ff4ace0bcc266/fragment-ktx-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b29410dc43325d5cbf1ff4ace0bcc266/fragment-ktx-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9769f5859f74fee92a159a120c1a97ee/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9769f5859f74fee92a159a120c1a97ee/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/beed28e19d4f55ab2c17aff66e0bc400/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/beed28e19d4f55ab2c17aff66e0bc400/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e0d80e5c178a0db065288a448fc598ef/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e0d80e5c178a0db065288a448fc598ef/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/f3997ce16a5c00ae84a772d300d0e1e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/f3997ce16a5c00ae84a772d300d0e1e8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/04087833f388d5ffa97a080d757646c2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/04087833f388d5ffa97a080d757646c2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/eb11c4797d5d5b24d5dcbbebe26babf4/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/eb11c4797d5d5b24d5dcbbebe26babf4/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/740a70a0c89c8c085b6e012b4bd7790e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/740a70a0c89c8c085b6e012b4bd7790e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/31dc29ba3158cee4b1ca2bf2f6ff141b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/31dc29ba3158cee4b1ca2bf2f6ff141b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/435f1166e6a428a0025d9cd273cb35a2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/331f61861c2d3a925f2252286afb1f53/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/331f61861c2d3a925f2252286afb1f53/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/864731227fc7977b33c0ddbaa38ce6e9/navigation-runtime-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/864731227fc7977b33c0ddbaa38ce6e9/navigation-runtime-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/88766e9eacde4383ac44d520f97e2fad/navigation-runtime-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/88766e9eacde4383ac44d520f97e2fad/navigation-runtime-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e1e698747bd641cc6a0139e2f99fad7b/activity-ktx-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/e1e698747bd641cc6a0139e2f99fad7b/activity-ktx-1.0.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/de06683d96412d89b8bbbf7e6b999dda/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/de06683d96412d89b8bbbf7e6b999dda/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/07505c986e12e687b7c74d1629244ece/navigation-common-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/07505c986e12e687b7c74d1629244ece/navigation-common-ktx-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bbc81b1e485dca778464c54c5a1f217f/navigation-common-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bbc81b1e485dca778464c54c5a1f217f/navigation-common-2.1.0-alpha05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/aa91d8d2653c363bbd5da9d9892260d3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/04a7b867e647e7eb31182562df2c795a/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/04a7b867e647e7eb31182562df2c795a/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/2dacdedacba9265ce7d335905357ebc3/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/2dacdedacba9265ce7d335905357ebc3/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a122ffd4c0fe608c1613ec63d113b06d/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a122ffd4c0fe608c1613ec63d113b06d/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a74ec278edce9da3ecbff9a1cdf4887a/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a74ec278edce9da3ecbff9a1cdf4887a/lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/41aa050c27dd9b1a6a028e37b38caee9/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/41aa050c27dd9b1a6a028e37b38caee9/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/384e1b5d703f7ead48bd253f34125353/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/384e1b5d703f7ead48bd253f34125353/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/81be015ee16d7afb6bf291abe682c377/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/81be015ee16d7afb6bf291abe682c377/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/049d2c70f00968fcb42e43317b0d8e71/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/049d2c70f00968fcb42e43317b0d8e71/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7acef2a7bfef3795312317efec15d83e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7acef2a7bfef3795312317efec15d83e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/43152caf703bd370c9602fd486df1e8c/lifecycle-viewmodel-ktx-2.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-beta01] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/43152caf703bd370c9602fd486df1e8c/lifecycle-viewmodel-ktx-2.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b04e51bce09da5abc9e72471e05ae96d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b04e51bce09da5abc9e72471e05ae96d/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9c8616d74aa0ab3eb457d24b669c685/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9c8616d74aa0ab3eb457d24b669c685/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/d4ef17d609918d2a5f5a86d1ea02678f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9d52be8c254a228a91eaf05f51d52923/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/9093771a98b01557e81860f4122d7892/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ec682ca46f5c90ea9a9e0cba0c0310a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ec682ca46f5c90ea9a9e0cba0c0310a/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/src/main/AndroidManifest.xml
+provider#com.amitshekhar.debug.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:12:9-16:40
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:15:13-35
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a6e9c32d6e03942427784c1d3fc9c8af/debug-db-1.0.6/AndroidManifest.xml:13:13-69
+uses-permission#android.permission.INTERNET
+ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:29:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7c48f9d4c15c021cacf761e7e595fc3d/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ea2c56ea9b987d0e8f6f4b4e5dcb107c/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:19:22-76
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.1] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/854b47ac59f20b6a0c922bde7b1e0434/room-runtime-2.2.1/AndroidManifest.xml:26:13-74
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c9071c514f76ad325aaea33f443b10da/jetified-firebase-common-9.0.0/AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1b8bf5e23e9a70b030eaeb641b1409a0/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
