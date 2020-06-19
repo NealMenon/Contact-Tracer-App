@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 //import android.support.v7.widget.Toolbar;
 import androidx.appcompat.widget.SwitchCompat;
 
+import android.os.Looper;
 import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.Log;
@@ -100,21 +101,21 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 //        Toolbar toolbar = findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 
+//        Looper.prepare();
         tracerDB = TracerDatabase.getInstance(MainActivity.this);  // THIS BLOCK CREATES THE DATABASE. INCLUDE IN MAIN ACTIVITY
         interactionRepository = InteractionRepository.getInstance(InteractionDataSource.getInstance(tracerDB.interactionDAO()));
         interactionRepository.getAllInteractions(); // This actually confirms build of DB
         ephSecretKeyRepository = EphSecretKeyRepository.getInstance(EphSecretKeyDataSource.getInstance(tracerDB.ephSecretKeyDAO()));
         ephSecretKeyRepository.getAllEphSecretKeys();
-        SystemClock.sleep(100);
+//        SystemClock.sleep(100);
 
         DBTester dbt = new DBTester(tracerDB, interactionRepository, ephSecretKeyRepository);
+        while (tracerDB.locked);
         Log.d("DatabaseTest", "GOt key1: " + dbt.getEphSK());
-        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Inside main"));
+//        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Inside main"));
         Log.d("DatabaseTest", "GOt key2: " + ephSecretKeyRepository.getRandomEphSK());
 
 
-//        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(tracerDB);
-//        String test = new DeviceMessage(new Message()).getMessageBody();
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -144,15 +145,15 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
-
+                while (tracerDB.locked);
                 mNearbyDevicesArrayAdapter.add(
                         com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
-//                EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
-//                ephSecretKeyDAO.insertEphSecretKey(new EphSecretKey("This is a random test"));
+
             }
 
             @Override
             public void onLost(final Message message) {
+                while (tracerDB.locked);
                 mNearbyDevicesArrayAdapter.remove(
                         com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
             }

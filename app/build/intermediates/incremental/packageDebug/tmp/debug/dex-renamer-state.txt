@@ -1,4 +1,4 @@
-#Fri Jun 19 12:30:27 IST 2020
-base.0=/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Fri Jun 19 20:46:05 IST 2020
+base.0=/Users/nealmenon/Desktop/Programming/JIO/contact-tracer-app/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

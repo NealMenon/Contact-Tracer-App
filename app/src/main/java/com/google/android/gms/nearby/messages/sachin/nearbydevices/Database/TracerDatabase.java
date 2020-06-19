@@ -44,6 +44,7 @@ public abstract class TracerDatabase extends RoomDatabase {
 
     private static TracerDatabase tracerDB;
     private static final int NUMBER_OF_THREADS = 12;
+    public static boolean locked = false;
     static final ExecutorService databaseWriteExecutor = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
     public static TracerDatabase getInstance(Context context) {
@@ -104,37 +105,49 @@ public abstract class TracerDatabase extends RoomDatabase {
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
             super.onCreate(db);
+            locked = true;
             Log.d("DatabaseTest", "Inside onCreate");
             databaseWriteExecutor.execute(() -> {
                 Log.d("DatabaseTest", "Inside execute");
 
-//                SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
-//                secretKeyDao.insertSecretKey(new SecretKey());
-//
-//                EphSecretKeyDAO ephSecretKeyDao = tracerDB.ephSecretKeyDAO();
-//                ephSecretKeyDao.insertEphSecretKey(new EphSecretKey("SecretKeyTestValue"));
-//                secretKeyDao.insertSecretKey(new SecretKey());
-//
-//
-//                tracerDB.generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
-                tracerDB.sleeperFunction();
+                SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
+                secretKeyDao.insertSecretKey(new SecretKey());
+
+                tracerDB.generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
+                Log.d("DatabaseTest", "End of onCreate");
+                locked = false;
+//                tracerDB.sleeperFunction();
 
             });
         }
-//        @Override
-//        public void onOpen(@NonNull SupportSQLiteDatabase db) {
-//            super.onOpen(db);
-//            Log.d("DatabaseTest", "Inside onOpen");
-//            databaseWriteExecutor.execute(() -> {
-//                // Populate the database in the background.
-//                // If you want to start with more words, just add them.
-//                Log.d("DatabaseTest", "Inside execute");
-//
-//                SecretKeyDAO dao = tracerDB.secretKeyDAO();
-//                dao.insertSecretKey(new SecretKey(new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new java.util.Date())));
-//                dao.insertSecretKey(new SecretKey(new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new java.util.Date())));
-//            });
-//        }
+        @RequiresApi(api = Build.VERSION_CODES.O)
+        @Override
+        public void onOpen(@NonNull SupportSQLiteDatabase db) {
+            super.onOpen(db);
+            Log.d("DatabaseTest", "Inside onOpen");
+            databaseWriteExecutor.execute(() -> {
+                final Handler handler = new Handler(Looper.getMainLooper());
+                SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
+//                EphSecretKeyDAO ephSKdao = tracerDB.ephSecretKeyDAO();
+
+                secretKeyDao.insertSecretKey(new SecretKey());
+//                ephSKdao.insertEphSecretKey(new EphSecretKey("FirstSecretKeyTestValue"));
+                tracerDB.generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
+
+                Runnable runnable = new Runnable() {
+                    public void run() {
+
+                        Log.d("Data", "Reached the handler function");
+                        locked = true;
+                        secretKeyDao.insertSecretKey(new SecretKey(secretKeyDao.getLastSecretKey()));
+                        tracerDB.generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
+                        locked = false;
+                        handler.postDelayed(this, 30000);
+                    }
+                };
+//                runnable.run(); // Uncomment this to generate newer keys
+            });
+        }
     };
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -149,28 +162,19 @@ public abstract class TracerDatabase extends RoomDatabase {
 
         Runnable runnable = new Runnable() {
             public void run() {
-
-                /* Function adds new SecretKey every 30 seconds
-                 * Passes previous Sk's sttring and date to regenerate and set new date
-                 * Then calls genEphSK, which clears table and generates new
-                 */
-
                 handler.postDelayed(this, 30000);
                 Log.d("Data", "Reached the handler function");
                 secretKeyDao.insertSecretKey(new SecretKey(secretKeyDao.getLastSecretKey()));
                 generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
 
-
-
-
             }
         };
-//        runnable.run(); // Uncomment this to generate newer keys
+        runnable.run(); // Uncomment this to generate newer keys
     }
 
     protected void generateEphSecretKeys(String seed) {
         EphSecretKeyDAO ephSKdao = tracerDB.ephSecretKeyDAO();
-//        ephSKdao.deleteAllEphSecretKeys();
+        ephSKdao.deleteAllEphSecretKeys();
         String holder[] = new String[5];
         holder[0] = "";
 
@@ -202,7 +206,6 @@ public abstract class TracerDatabase extends RoomDatabase {
 
     private String hash(String seed) {
         String ret = "";
-
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-512");
             byte[] messageDigest = md.digest(seed.getBytes());
@@ -212,7 +215,6 @@ public abstract class TracerDatabase extends RoomDatabase {
         catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
-//        ret += seed + "B";
         return ret ;
     }
 

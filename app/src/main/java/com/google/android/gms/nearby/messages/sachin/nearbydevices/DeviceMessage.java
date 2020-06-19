@@ -37,21 +37,12 @@ public class DeviceMessage {
     }
 
     public String getMessageBody(EphSecretKeyRepository ephSecretKeyRepository) {
+
         ephSecretKeyRepository.getAllEphSecretKeys();
-        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Friday Jun19"));
+//        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Friday Jun19DM"));
         String randomKey = ephSecretKeyRepository.getRandomEphSK();
         Log.d("DatabaseTest", "The return EphSK in DevMess is " + randomKey);
         ephSecretKeyRepository.deleteEphSecretKeyByValue(randomKey);
         return randomKey;
-//        String randomKey = ephSecretKeyRepository.getRandomEphSK();
-//        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Insert new  EPHSK ###SUCCESS###"));
-////        EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
-////        ephSecretKeyDAO.insertEphSecretKey(new EphSecretKey("This is a random test"));
-////        String randomKey = ephSecretKeyDAO.getRandomEphSK();
-////        String randomKey = ephSecretKeyDAO.getEphSecretKeyById(1);
-//        Log.d("DatabaseTest", "The return in DM EphSK is " + randomKey);
-////        ephSecretKeyDAO.deleteEphSecretKeyByValue(randomKey);
-//        return randomKey;
-
     }
 }
