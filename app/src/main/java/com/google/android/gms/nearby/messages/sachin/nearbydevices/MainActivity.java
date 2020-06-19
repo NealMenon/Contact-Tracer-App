@@ -107,10 +107,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         ephSecretKeyRepository.getAllEphSecretKeys();
         SystemClock.sleep(100);
 
-//        DBTester dbt = new DBTester(tracerDB, interactionRepository, ephSecretKeyRepository);
-//        Log.d("DatabaseTest", "GOt key1: " + dbt.getEphSK());
-//        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Inside main"));
-//        Log.d("DatabaseTest", "GOt key2: " + ephSecretKeyRepository.getRandomEphSK());
+        DBTester dbt = new DBTester(tracerDB, interactionRepository, ephSecretKeyRepository);
+        Log.d("DatabaseTest", "GOt key1: " + dbt.getEphSK());
+        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Inside main"));
+        Log.d("DatabaseTest", "GOt key2: " + ephSecretKeyRepository.getRandomEphSK());
 
 
 //        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(tracerDB);
@@ -144,10 +144,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
+
                 mNearbyDevicesArrayAdapter.add(
                         com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
-                EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
-                ephSecretKeyDAO.insertEphSecretKey(new EphSecretKey("This is a random test"));
+//                EphSecretKeyDAO ephSecretKeyDAO = tracerDB.ephSecretKeyDAO();
+//                ephSecretKeyDAO.insertEphSecretKey(new EphSecretKey("This is a random test"));
             }
 
             @Override
@@ -230,12 +231,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         if (mSubscribeSwitch.isChecked()) {
             subscribe();
         }
-        for (int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
-            String key = mNearbyDevicesArrayAdapter.getItem(i);
-            Interaction interaction = new Interaction(key, 300, 3,  new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date()));
-            interactionRepository.insertInteraction(interaction);
-        }
-        mNearbyDevicesArrayAdapter = null;
+//        for (int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
+//            String key = mNearbyDevicesArrayAdapter.getItem(i);
+//            Interaction interaction = new Interaction(key, 300, 3,  new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date()));
+//            interactionRepository.insertInteraction(interaction);
+//        }
+//        mNearbyDevicesArrayAdapter = null;
 
     }
     private void subscribe() {

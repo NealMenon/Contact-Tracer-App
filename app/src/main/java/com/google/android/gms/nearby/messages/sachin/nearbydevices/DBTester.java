@@ -21,8 +21,9 @@ public class DBTester {
 
     public String getEphSK() {
         ephSecretKeyRepository.getAllEphSecretKeys();
+        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Friday Jun19"));
         String randomKey = ephSecretKeyRepository.getRandomEphSK();
-        Log.d("DatabaseTest", "The return EphSK in DBT is " + randomKey);
+        Log.d("DatabaseTest", "The return EphSK in DevMess is " + randomKey);
         ephSecretKeyRepository.deleteEphSecretKeyByValue(randomKey);
         return randomKey;
     }

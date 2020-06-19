@@ -38,6 +38,7 @@ public class DeviceMessage {
 
     public String getMessageBody(EphSecretKeyRepository ephSecretKeyRepository) {
         ephSecretKeyRepository.getAllEphSecretKeys();
+        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Friday Jun19"));
         String randomKey = ephSecretKeyRepository.getRandomEphSK();
         Log.d("DatabaseTest", "The return EphSK in DevMess is " + randomKey);
         ephSecretKeyRepository.deleteEphSecretKeyByValue(randomKey);
