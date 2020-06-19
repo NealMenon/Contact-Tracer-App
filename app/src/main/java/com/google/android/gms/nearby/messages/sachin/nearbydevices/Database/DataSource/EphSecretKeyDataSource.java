@@ -50,9 +50,16 @@ public class EphSecretKeyDataSource implements EphSecretKeyDataSourceInterface {
     }
 
     @Override
+    public void deleteEphSecretKeyByValue(String value) {
+        ephSecretKeyDAO.deleteEphSecretKeyByValue(value);
+    }
+
+    @Override
     public List<EphSecretKey> getAllEphSecretKeys() {
         return ephSecretKeyDAO.getAllEphSecretKeys();
     }
+
+
 
     @Override
     public void deleteAllEphSecretKeys() {

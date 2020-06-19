@@ -63,7 +63,7 @@ public class SecretKey {
             e.printStackTrace();
         }
         String seed = secureRandom.ints(32, 0, chrs.length()).mapToObj(i -> chrs.charAt(i)).collect(StringBuilder::new, StringBuilder::append, StringBuilder::append).toString();
-        Log.d("Database", "Seed: " + seed);
+//        Log.d("Database", "Seed: " + seed);
         return seed;
 //        return "AAA";
     }
@@ -84,7 +84,7 @@ public class SecretKey {
         catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
-        Log.d("Database", "Final hash: " + ret);
+//        Log.d("Database", "Final hash: " + ret);
 //        ret += seed + "B";
         return ret ;
     }

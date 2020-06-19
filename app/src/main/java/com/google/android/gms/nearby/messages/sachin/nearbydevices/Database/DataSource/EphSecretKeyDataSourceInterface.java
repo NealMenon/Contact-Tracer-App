@@ -13,6 +13,7 @@ public interface EphSecretKeyDataSourceInterface {
     void deleteEphSecretKey(EphSecretKey ephSecretKey);
     String getEphSecretKeyById(int ephSKID);
     String getRandomEphSK();
+    void deleteEphSecretKeyByValue(String value);
     List<EphSecretKey> getAllEphSecretKeys();
     void deleteAllEphSecretKeys();
 

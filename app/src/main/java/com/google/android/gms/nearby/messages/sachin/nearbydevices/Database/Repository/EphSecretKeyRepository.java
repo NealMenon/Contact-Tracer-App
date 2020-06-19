@@ -49,6 +49,11 @@ public class EphSecretKeyRepository implements EphSecretKeyDataSourceInterface {
     }
 
     @Override
+    public void deleteEphSecretKeyByValue(String value) {
+        mLocalDataSource.deleteEphSecretKeyByValue(value);
+    }
+
+    @Override
     public List<EphSecretKey> getAllEphSecretKeys() {
         return mLocalDataSource.getAllEphSecretKeys();
     }

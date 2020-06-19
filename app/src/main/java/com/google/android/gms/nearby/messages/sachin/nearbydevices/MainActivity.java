@@ -12,6 +12,8 @@ import androidx.annotation.Nullable;
 //import android.support.v7.widget.SwitchCompat;
 //import android.support.v7.widget.Toolbar;
 import androidx.appcompat.widget.SwitchCompat;
+
+import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -102,7 +104,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         interactionRepository = InteractionRepository.getInstance(InteractionDataSource.getInstance(tracerDB.interactionDAO()));
         interactionRepository.getAllInteractions(); // This actually confirms build of DB
         ephSecretKeyRepository = EphSecretKeyRepository.getInstance(EphSecretKeyDataSource.getInstance(tracerDB.ephSecretKeyDAO()));
+        ephSecretKeyRepository.getAllEphSecretKeys();
+        SystemClock.sleep(100);
 
+//        DBTester dbt = new DBTester(tracerDB, interactionRepository, ephSecretKeyRepository);
+//        Log.d("DatabaseTest", "GOt key1: " + dbt.getEphSK());
+//        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Inside main"));
+//        Log.d("DatabaseTest", "GOt key2: " + ephSecretKeyRepository.getRandomEphSK());
 
 
 //        com.google.android.gms.nearby.messages.sachin.nearbydevices.DeviceMessage.fromNearbyMessage(message).getMessageBody(tracerDB);
