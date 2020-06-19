@@ -37,7 +37,7 @@ import java.util.concurrent.Executors;
 
 @Database(entities = {Interaction.class, SecretKey.class, EphSecretKey.class}, version = 1, exportSchema = false)
 public abstract class TracerDatabase extends RoomDatabase {
-
+    // version at 1152 jun 19
     public abstract InteractionDAO interactionDAO();
     public abstract SecretKeyDAO secretKeyDAO();
     public abstract EphSecretKeyDAO ephSecretKeyDAO();
