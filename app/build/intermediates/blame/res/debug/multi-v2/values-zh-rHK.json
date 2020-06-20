@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/4a03f91da5c57f5d524d9384f6e18ebc/jetified-navigation-ui-2.1.0-alpha05/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/d5e951a2f29b79e32c81492b0e5a3739/jetified-navigation-ui-2.1.0-alpha05/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/37ec02f661e3547c5499ecdfd9f3cd1f/appcompat-1.1.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b98875bd0fc42a14a2228f29b03cea1b/appcompat-1.1.0/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7ab98dbb508ed127a14e4839426304a0/jetified-play-services-basement-9.0.0/res/values-zh-rHK/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "329",
-                        "endColumns": "177",
-                        "endOffsets": "502"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5220",
-                        "endColumns": "177",
-                        "endOffsets": "5393"
-                    }
-                },
-                {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/8529f8b8a320ca1d1cb70da199404479/jetified-play-services-base-9.0.0/res/values-zh-rHK/values.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b3019811f7904bba9b48cf51bf769a1e/jetified-play-services-base-9.0.0/res/values-zh-rHK/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a28ba9ef3fc190520620ee2c093e0287/jetified-play-services-basement-9.0.0/res/values-zh-rHK/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "329",
+                        "endColumns": "177",
+                        "endOffsets": "502"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5220",
+                        "endColumns": "177",
+                        "endOffsets": "5393"
+                    }
+                },
+                {
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7bcac1eefa2bb1f0e62878f30cab7d5d/core-1.1.0/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -14,12 +14,12 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import androidx.sqlite.db.SupportSQLiteOpenHelper;
 import androidx.sqlite.db.SupportSQLiteOpenHelper.Callback;
 import androidx.sqlite.db.SupportSQLiteOpenHelper.Configuration;
-import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.EphSecretKeyDAO;
-import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.EphSecretKeyDAO_Impl;
-import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.InteractionDAO;
-import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.InteractionDAO_Impl;
-import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.SecretKeyDAO;
-import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.SecretKeyDAO_Impl;
+import com.example.contact_tracer_appv2.Database.DAO.EphSecretKeyDAO;
+import com.example.contact_tracer_appv2.Database.DAO.EphSecretKeyDAO_Impl;
+import com.example.contact_tracer_appv2.Database.DAO.InteractionDAO;
+import com.example.contact_tracer_appv2.Database.DAO.InteractionDAO_Impl;
+import com.example.contact_tracer_appv2.Database.DAO.SecretKeyDAO;
+import com.example.contact_tracer_appv2.Database.DAO.SecretKeyDAO_Impl;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
@@ -101,7 +101,7 @@ public final class TracerDatabase_Impl extends TracerDatabase {
         final TableInfo _infoInteractionsTable = new TableInfo("interactions_table", _columnsInteractionsTable, _foreignKeysInteractionsTable, _indicesInteractionsTable);
         final TableInfo _existingInteractionsTable = TableInfo.read(_db, "interactions_table");
         if (! _infoInteractionsTable.equals(_existingInteractionsTable)) {
-          return new RoomOpenHelper.ValidationResult(false, "interactions_table(com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.Interaction).\n"
+          return new RoomOpenHelper.ValidationResult(false, "interactions_table(com.example.contact_tracer_appv2.Database.Model.Interaction).\n"
                   + " Expected:\n" + _infoInteractionsTable + "\n"
                   + " Found:\n" + _existingInteractionsTable);
         }
@@ -114,7 +114,7 @@ public final class TracerDatabase_Impl extends TracerDatabase {
         final TableInfo _infoSecretkeysTable = new TableInfo("secretkeys_table", _columnsSecretkeysTable, _foreignKeysSecretkeysTable, _indicesSecretkeysTable);
         final TableInfo _existingSecretkeysTable = TableInfo.read(_db, "secretkeys_table");
         if (! _infoSecretkeysTable.equals(_existingSecretkeysTable)) {
-          return new RoomOpenHelper.ValidationResult(false, "secretkeys_table(com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.SecretKey).\n"
+          return new RoomOpenHelper.ValidationResult(false, "secretkeys_table(com.example.contact_tracer_appv2.Database.Model.SecretKey).\n"
                   + " Expected:\n" + _infoSecretkeysTable + "\n"
                   + " Found:\n" + _existingSecretkeysTable);
         }
@@ -126,7 +126,7 @@ public final class TracerDatabase_Impl extends TracerDatabase {
         final TableInfo _infoEphsecretkeysTable = new TableInfo("ephsecretkeys_table", _columnsEphsecretkeysTable, _foreignKeysEphsecretkeysTable, _indicesEphsecretkeysTable);
         final TableInfo _existingEphsecretkeysTable = TableInfo.read(_db, "ephsecretkeys_table");
         if (! _infoEphsecretkeysTable.equals(_existingEphsecretkeysTable)) {
-          return new RoomOpenHelper.ValidationResult(false, "ephsecretkeys_table(com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.EphSecretKey).\n"
+          return new RoomOpenHelper.ValidationResult(false, "ephsecretkeys_table(com.example.contact_tracer_appv2.Database.Model.EphSecretKey).\n"
                   + " Expected:\n" + _infoEphsecretkeysTable + "\n"
                   + " Found:\n" + _existingEphsecretkeysTable);
         }

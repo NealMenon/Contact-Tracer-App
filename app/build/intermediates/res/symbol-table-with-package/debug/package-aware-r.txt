@@ -1,4 +1,4 @@
-com.google.android.gms.nearby.messages.samples.nearbydevices
+com.example.contact_tracer_appv2
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -913,7 +913,6 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
-dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1148,6 +1147,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1171,11 +1172,9 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
-id FirstFragment
 id META
 id SHIFT
 id SYM
-id SecondFragment
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1210,8 +1209,6 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1228,7 +1225,6 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1246,8 +1242,6 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
-id button_first
-id button_second
 id cancel_action
 id center
 id center_horizontal
@@ -1285,7 +1279,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1325,7 +1318,6 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id nav_controller_view_tag
-id nav_graph
 id nav_host_fragment
 id navigation_header_container
 id nearby_devices_list_view
@@ -1414,8 +1406,6 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-id textview_first
-id textview_second
 id time
 id title
 id titleDividerNoCustom
@@ -1513,8 +1503,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_first
-layout fragment_second
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1536,9 +1524,8 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu menu_main
 mipmap ic_launcher
-navigation nav_graph
+mipmap ic_launcher_round
 string PORT_NUMBER
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -1567,7 +1554,6 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string action_settings
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior

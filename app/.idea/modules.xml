@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1668073650/Contact-Tracer-App.iml" filepath="$PROJECT_DIR$/.idea/modules/-1668073650/Contact-Tracer-App.iml" group="Contact-Tracer-App" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Contact-Tracer-App/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1976530928/Contact-Tracer-Appv2.iml" filepath="$PROJECT_DIR$/.idea/modules/1976530928/Contact-Tracer-Appv2.iml" group="Contact-Tracer-Appv2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Contact-Tracer-Appv2/app" />
     </modules>
   </component>
 </project>
