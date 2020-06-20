@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/d5e951a2f29b79e32c81492b0e5a3739/jetified-navigation-ui-2.1.0-alpha05/res/values-eu/values-eu.xml",

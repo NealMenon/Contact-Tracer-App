@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/033d6f08bf0a08d5667941e33d3b1af7/material-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",

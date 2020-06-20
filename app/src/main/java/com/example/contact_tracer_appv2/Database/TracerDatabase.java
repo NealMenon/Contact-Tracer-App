@@ -1,5 +1,5 @@
 //package com.example.conttracerappdbtest.Database;
-package com.google.android.gms.nearby.messages.sachin.nearbydevices.Database;
+package com.example.contact_tracer_appv2.Database;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;

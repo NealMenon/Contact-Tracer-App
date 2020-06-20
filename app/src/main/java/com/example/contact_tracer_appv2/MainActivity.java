@@ -10,8 +10,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
@@ -21,6 +19,7 @@ import com.example.contact_tracer_appv2.Database.DataSource.EphSecretKeyDataSour
 import com.example.contact_tracer_appv2.Database.DataSource.InteractionDataSource;
 import com.example.contact_tracer_appv2.Database.Repository.EphSecretKeyRepository;
 import com.example.contact_tracer_appv2.Database.Repository.InteractionRepository;
+import com.example.contact_tracer_appv2.Database.TracerDatabase;
 import com.example.contact_tracer_appv2.Device.DeviceMessage;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -34,7 +33,7 @@ import com.google.android.gms.nearby.messages.PublishOptions;
 import com.google.android.gms.nearby.messages.Strategy;
 import com.google.android.gms.nearby.messages.SubscribeCallback;
 import com.google.android.gms.nearby.messages.SubscribeOptions;
-import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.TracerDatabase;
+
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;

@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml
+8-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml
+9-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/64adfb5cb3d42a145e0e3b4eeb536cb4/jetified-debug-db-base-1.0.6/AndroidManifest.xml:29:5-67
@@ -21,35 +21,35 @@
 13-->[com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1575f44505bd3f8cd1734dc10ad8c608/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:19:22-76
 14
 15    <application
-15-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:5:5-19:19
+15-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:5:5-19:19
 16        android:allowBackup="true"
-16-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:6:9-35
+16-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:6:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 17-->[androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7bcac1eefa2bb1f0e62878f30cab7d5d/core-1.1.0/AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:icon="@mipmap/ic_launcher"
-19-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:7:9-43
+19-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:7:9-43
 20        android:label="@string/app_name"
-20-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:8:9-41
+20-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:8:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:9:9-54
+21-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:9:9-54
 22        android:supportsRtl="true"
-22-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:10:9-35
+22-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:10:9-35
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
-24-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:11:9-40
+24-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:11:9-40
 25        <activity android:name="com.example.contact_tracer_appv2.MainActivity" >
-25-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:12:9-18:20
-25-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:12:19-47
+25-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:12:9-18:20
+25-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:12:19-47
 26            <intent-filter>
-26-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:13:13-17:29
+26-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:13:13-17:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:14:17-69
-27-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:14:25-66
+27-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:14:17-69
+27-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:14:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:16:17-77
-29-->/Users/nealmenon/Desktop/Programming/temp/ContactTracerAppv2/app/src/main/AndroidManifest.xml:16:27-74
+29-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:16:17-77
+29-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:16:27-74
 30            </intent-filter>
 31        </activity>
 32
