@@ -50,10 +50,6 @@ public class SecretKey {
         this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
     }
 
-
-
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
     private String generateSeed() {
         String chrs = "0123456789abcdefghijklmnopqrstuvwxyz-_!@#$%^&*+ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         SecureRandom secureRandom = null;

@@ -80,12 +80,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         interactionRepository.getAllInteractions(); // This actually confirms build of DB
         ephSecretKeyRepository = EphSecretKeyRepository.getInstance(EphSecretKeyDataSource.getInstance(tracerDB.ephSecretKeyDAO()));
         ephSecretKeyRepository.getAllEphSecretKeys();
-//        SystemClock.sleep(100);
 
+//        SystemClock.sleep(100);
 //        DBTester dbt = new DBTester(tracerDB, interactionRepository, ephSecretKeyRepository);
-        while (tracerDB.locked);
+//        while (tracerDB.locked);
 //        Log.d("DatabaseTest", "GOt key1: " + dbt.getEphSK());
 //        ephSecretKeyRepository.insertEphSecretKey(new EphSecretKey("Inside main"));
+
         Log.d("DatabaseTest", "GOt key2: " + ephSecretKeyRepository.getRandomEphSK());
 
         mSubscribeSwitch = (SwitchCompat) findViewById(R.id.subscribe_switch);
@@ -98,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
-                while (tracerDB.locked);
+//                while (tracerDB.locked);
                 mNearbyDevicesArrayAdapter.add(
                         DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
 
@@ -106,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
             @Override
             public void onLost(final Message message) {
-                while (tracerDB.locked);
+//                while (tracerDB.locked);
                 mNearbyDevicesArrayAdapter.remove(
                         DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
             }
