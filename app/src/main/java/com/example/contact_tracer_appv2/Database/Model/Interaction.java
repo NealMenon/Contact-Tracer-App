@@ -5,6 +5,8 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import java.text.SimpleDateFormat;
+
 
 @Entity(tableName = "interactions_table")
 public class Interaction {
@@ -36,6 +38,13 @@ public class Interaction {
         this.duration = duration;
         this.proximity = proximity;
         this.time = time;
+    }
+
+    public Interaction(String ephSK) {
+        this.ephSK = ephSK;
+        this.duration = 100;
+        this.proximity = 5;
+        this.time = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());;
     }
 
     public int getId() {

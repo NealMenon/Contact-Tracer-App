@@ -26,6 +26,7 @@ import android.widget.TextView;
 
 import com.example.contact_tracer_appv2.Database.DataSource.EphSecretKeyDataSource;
 import com.example.contact_tracer_appv2.Database.DataSource.InteractionDataSource;
+import com.example.contact_tracer_appv2.Database.Model.Interaction;
 import com.example.contact_tracer_appv2.Database.Repository.EphSecretKeyRepository;
 import com.example.contact_tracer_appv2.Database.Repository.InteractionRepository;
 import com.example.contact_tracer_appv2.Database.TracerDatabase;
@@ -247,7 +248,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         if (mSubscribeSwitch.isChecked()) {
             subscribe();
         }
-
+        for(int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
+            interactionRepository.insertInteraction(new Interaction(mNearbyDevicesArrayAdapter.getItem(i)));
+        }
+        mNearbyDevicesArrayAdapter.clear();
     }
     private void subscribe() {
         Log.i(TAG, "Subscribing");
