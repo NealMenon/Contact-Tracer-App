@@ -19,25 +19,41 @@
 
 
     </com.google.android.material.appbar.AppBarLayout>
-    <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/subscribe_switch"
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/discover_nearby_devices" />
-
-    <androidx.appcompat.widget.SwitchCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/publish_switch"
-        android:text="@string/share_device_information" />
-
+        android:text="Report Covid Positive"
+        android:id="@+id/covidpositive"
+        />
     <ListView
         android:id="@+id/nearby_devices_list_view"
         android:layout_width="match_parent"
-        android:layout_height="329dp"
+        android:layout_height="100dp"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:transcriptMode="alwaysScroll" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <TextView
+            android:id="@+id/text_view_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            />
+    </androidx.core.widget.NestedScrollView>
     <include layout="@layout/content_main" />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/subscribe_switch"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/discover_nearby_devices" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/publish_switch"
+        android:text="@string/share_device_information" />
 
 </LinearLayout>
 

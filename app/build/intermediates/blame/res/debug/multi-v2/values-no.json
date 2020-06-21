@@ -4,7 +4,7 @@
             "outputFile": "/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-no/values-no.xml",
             "map": [
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a28ba9ef3fc190520620ee2c093e0287/jetified-play-services-basement-9.0.0/res/values-no/values.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/3a7fd92dc5c9f19131462ebaf5c1b7e6/jetified-play-services-basement-9.0.0/res/values-no/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b3019811f7904bba9b48cf51bf769a1e/jetified-play-services-base-9.0.0/res/values-no/values.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a8ac191d62871d408b6207edb995cbdb/jetified-play-services-base-9.0.0/res/values-no/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

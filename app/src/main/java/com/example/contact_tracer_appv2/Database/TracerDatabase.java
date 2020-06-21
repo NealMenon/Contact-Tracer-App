@@ -31,9 +31,10 @@ import java.util.concurrent.Executors;
 
 @Database(entities = {Interaction.class, SecretKey.class, EphSecretKey.class}, version = 1, exportSchema = false)
 public abstract class TracerDatabase extends RoomDatabase {
-    // version at 1152 jun 19
     public abstract InteractionDAO interactionDAO();
+
     public abstract SecretKeyDAO secretKeyDAO();
+
     public abstract EphSecretKeyDAO ephSecretKeyDAO();
 
     private static TracerDatabase tracerDB;
@@ -48,14 +49,13 @@ public abstract class TracerDatabase extends RoomDatabase {
     }
 
 
-
     private static TracerDatabase buildDatabaseInstance(Context context) {
         Log.d("DatabaseTest", "In buildDB");
-        if(tracerDB == null) {
+        if (tracerDB == null) {
             synchronized (TracerDatabase.class) {
-                if(tracerDB == null) {
+                if (tracerDB == null) {
                     Log.d("DatabaseTest", "CreatingDB1");
-                    tracerDB =  Room.databaseBuilder(context,
+                    tracerDB = Room.databaseBuilder(context,
                             TracerDatabase.class, "tracer_database.db")
                             .allowMainThreadQueries()
                             /*.addCallback(sRoomDatabaseCallback)*/
@@ -75,30 +75,10 @@ public abstract class TracerDatabase extends RoomDatabase {
     }
 
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
-    private void sleeperFunction() {
-        final Handler handler = new Handler(Looper.getMainLooper());
-        SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
-        EphSecretKeyDAO ephSKdao = tracerDB.ephSecretKeyDAO();
 
-        secretKeyDao.insertSecretKey(new SecretKey());
-//        ephSKdao.insertEphSecretKey(new EphSecretKey("FirstSecretKeyTestValue"));
-        generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
 
-        Runnable runnable = new Runnable() {
-            public void run() {
-                handler.postDelayed(this, 30000);
-                Log.d("Data", "Reached the handler function");
-                secretKeyDao.insertSecretKey(new SecretKey(secretKeyDao.getLastSecretKey()));
-                generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
-
-            }
-        };
-        runnable.run(); // Uncomment this to generate newer keys
-    }
-
-    @RequiresApi(api = Build.VERSION_CODES.O)
     public void newDay() {
+        Log.d("DatabaseTest", "A new Day");
         SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
         secretKeyDao.insertSecretKey(new SecretKey(secretKeyDao.getLastSecretKey()));
         generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
@@ -118,7 +98,7 @@ public abstract class TracerDatabase extends RoomDatabase {
 
         List<String> keys = new ArrayList<String>();
 
-        for(int i = 1; i < 5; i++) {
+        for (int i = 1; i < 5; i++) {
             holder[0] = hash(holder[i]);
 
             keys.add(holder[0].substring(0, 16));
@@ -130,7 +110,7 @@ public abstract class TracerDatabase extends RoomDatabase {
 
 
         }
-        for(String key : keys) {
+        for (String key : keys) {
             ephSKdao.insertEphSecretKey(new EphSecretKey(key));
         }
 
@@ -143,12 +123,15 @@ public abstract class TracerDatabase extends RoomDatabase {
             byte[] messageDigest = md.digest(seed.getBytes());
             BigInteger no = new BigInteger(1, messageDigest);
             ret = no.toString(36);
-        }
-        catch (NoSuchAlgorithmException e) {
+        } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
-        return ret ;
+        return ret;
     }
+
+}
+
+//          IGNORE
 
 //    private static RoomDatabase.Callback sRoomDatabaseCallback = new RoomDatabase.Callback() {
 //        @RequiresApi(api = Build.VERSION_CODES.O)
@@ -203,4 +186,25 @@ public abstract class TracerDatabase extends RoomDatabase {
 //        }
 //    };
 
-}
+//    private void sleeperFunction() {
+//        final Handler handler = new Handler(Looper.getMainLooper());
+//        SecretKeyDAO secretKeyDao = tracerDB.secretKeyDAO();
+//        EphSecretKeyDAO ephSKdao = tracerDB.ephSecretKeyDAO();
+//
+//        secretKeyDao.insertSecretKey(new SecretKey());
+////        ephSKdao.insertEphSecretKey(new EphSecretKey("FirstSecretKeyTestValue"));
+//        generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
+//
+//        Runnable runnable = new Runnable() {
+//            public void run() {
+//                handler.postDelayed(this, 30000);
+//                Log.d("Data", "Reached the handler function");
+//                secretKeyDao.insertSecretKey(new SecretKey(secretKeyDao.getLastSecretKey()));
+//                generateEphSecretKeys(secretKeyDao.getLastSecretKey().getSecretKey());
+//
+//            }
+//        };
+//        runnable.run(); // Uncomment this to generate newer keys
+//    }
+
+//}

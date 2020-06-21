@@ -4,58 +4,7 @@
             "outputFile": "/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
             "map": [
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/7bcac1eefa2bb1f0e62878f30cab7d5d/core-1.1.0/res/values-si/values-si.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "63",
-                        "startColumns": "4",
-                        "startOffsets": "7974",
-                        "endColumns": "100",
-                        "endOffsets": "8070"
-                    }
-                },
-                {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/d5e951a2f29b79e32c81492b0e5a3739/jetified-navigation-ui-2.1.0-alpha05/res/values-si/values-si.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,166",
-                        "endColumns": "110,116",
-                        "endOffsets": "161,278"
-                    },
-                    "to": {
-                        "startLines": "60,61",
-                        "startColumns": "4,4",
-                        "startOffsets": "7665,7776",
-                        "endColumns": "110,116",
-                        "endOffsets": "7771,7888"
-                    }
-                },
-                {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b3019811f7904bba9b48cf51bf769a1e/jetified-play-services-base-9.0.0/res/values-si/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "323,560,690,876,1002,1129,1331,1539,1665,1844,1969,2126,2241,2368,2556,2708,2880,3006,3179,3308,3547,3667,3784,3971,4104,4307,4443,4634,4737,4828",
-                        "endColumns": "236,129,185,125,126,201,207,125,178,124,156,114,126,187,151,171,125,172,128,238,119,116,186,132,202,135,190,102,90,108",
-                        "endOffsets": "555,685,871,997,1124,1326,1534,1660,1839,1964,2121,2236,2363,2551,2703,2875,3001,3174,3303,3542,3662,3779,3966,4099,4302,4438,4629,4732,4823,4932"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2821,3058,3188,3374,3500,3627,3829,4037,4163,4342,4467,4624,4739,4866,5054,5206,5378,5504,5677,6036,6275,6395,6512,6699,6832,7035,7171,7362,7465,7556",
-                        "endColumns": "236,129,185,125,126,201,207,125,178,124,156,114,126,187,151,171,125,172,128,238,119,116,186,132,202,135,190,102,90,108",
-                        "endOffsets": "3053,3183,3369,3495,3622,3824,4032,4158,4337,4462,4619,4734,4861,5049,5201,5373,5499,5672,5801,6270,6390,6507,6694,6827,7030,7166,7357,7460,7551,7660"
-                    }
-                },
-                {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/b98875bd0fc42a14a2228f29b03cea1b/appcompat-1.1.0/res/values-si/values-si.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/res/values-si/values-si.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +21,58 @@
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a28ba9ef3fc190520620ee2c093e0287/jetified-play-services-basement-9.0.0/res/values-si/values.xml",
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/45ff6bef557af96c12b003af99c7fc1c/navigation-ui-2.1.0-alpha05/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,166",
+                        "endColumns": "110,116",
+                        "endOffsets": "161,278"
+                    },
+                    "to": {
+                        "startLines": "60,61",
+                        "startColumns": "4,4",
+                        "startOffsets": "7665,7776",
+                        "endColumns": "110,116",
+                        "endOffsets": "7771,7888"
+                    }
+                },
+                {
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "63",
+                        "startColumns": "4",
+                        "startOffsets": "7974",
+                        "endColumns": "100",
+                        "endOffsets": "8070"
+                    }
+                },
+                {
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a8ac191d62871d408b6207edb995cbdb/jetified-play-services-base-9.0.0/res/values-si/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "323,560,690,876,1002,1129,1331,1539,1665,1844,1969,2126,2241,2368,2556,2708,2880,3006,3179,3308,3547,3667,3784,3971,4104,4307,4443,4634,4737,4828",
+                        "endColumns": "236,129,185,125,126,201,207,125,178,124,156,114,126,187,151,171,125,172,128,238,119,116,186,132,202,135,190,102,90,108",
+                        "endOffsets": "555,685,871,997,1124,1326,1534,1660,1839,1964,2121,2236,2363,2551,2703,2875,3001,3174,3303,3542,3662,3779,3966,4099,4302,4438,4629,4732,4823,4932"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2821,3058,3188,3374,3500,3627,3829,4037,4163,4342,4467,4624,4739,4866,5054,5206,5378,5504,5677,6036,6275,6395,6512,6699,6832,7035,7171,7362,7465,7556",
+                        "endColumns": "236,129,185,125,126,201,207,125,178,124,156,114,126,187,151,171,125,172,128,238,119,116,186,132,202,135,190,102,90,108",
+                        "endOffsets": "3053,3183,3369,3495,3622,3824,4032,4158,4337,4462,4619,4734,4861,5049,5201,5373,5499,5672,5801,6270,6390,6507,6694,6827,7030,7166,7357,7460,7551,7660"
+                    }
+                },
+                {
+                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/3a7fd92dc5c9f19131462ebaf5c1b7e6/jetified-play-services-basement-9.0.0/res/values-si/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

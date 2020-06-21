@@ -36,35 +36,41 @@ public class SecretKey {
 
 
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
     public SecretKey() { // only on db create
         Log.d("Data", "New FIRST SecretKey");
         this.secretKey = this.generateKey(generateSeed());
-        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
+//        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
+        this.dateString = new java.util.Date().toString();
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
     public SecretKey(SecretKey old) { // subsequent new SKs
         this.secretKey = this.generateKey(old.getSecretKey());
         Log.d("Data", "New SK");
-        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
+//        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
+        this.dateString = new java.util.Date().toString();
     }
 
     private String generateSeed() {
-        String chrs = "0123456789abcdefghijklmnopqrstuvwxyz-_!@#$%^&*+ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        SecureRandom secureRandom = null;
-        try {
-            secureRandom = SecureRandom.getInstanceStrong();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
+//        String chrs = "0123456789abcdefghijklmnopqrstuvwxyz-_!@#$%^&*+ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//        SecureRandom secureRandom = null;
+//        try {
+//            secureRandom = SecureRandom.getInstanceStrong();
+//        } catch (NoSuchAlgorithmException e) {
+//            e.printStackTrace();
+//        }
+//        String seed = secureRandom.ints(32, 0, chrs.length()).mapToObj(i -> chrs.charAt(i)).collect(StringBuilder::new, StringBuilder::append, StringBuilder::append).toString();
+////        Log.d("Database", "Seed: " + seed);
+//        return seed;
+////        return "AAA";
+        String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "0123456789" + "abcdefghijklmnopqrstuvxyz";
+        StringBuilder sb = new StringBuilder(32);
+        for (int i = 0; i < 32; i++) {
+            int index = (int)(AlphaNumericString.length() * Math.random());
+            sb.append(AlphaNumericString.charAt(index));
         }
-        String seed = secureRandom.ints(32, 0, chrs.length()).mapToObj(i -> chrs.charAt(i)).collect(StringBuilder::new, StringBuilder::append, StringBuilder::append).toString();
-//        Log.d("Database", "Seed: " + seed);
-        return seed;
-//        return "AAA";
+        return sb.toString();
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
     private String generateKey(String seed) {
         String ret = "";
 
