@@ -113,11 +113,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
         textViewResult = findViewById(R.id.text_view_result);
         Retrofit retrofit = new Retrofit.Builder()
-<<<<<<< HEAD
-                .baseUrl("http://40.81.226.196/contact-tracer-server/")
-=======
                 .baseUrl("https://40.81.226.196/contact-tracer-server/")
->>>>>>> e055b75338190d186660ee1667d0ff2ae1be0b57
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -181,18 +177,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
-<<<<<<< HEAD
-//                mNearbyDevicesArrayAdapter.add(
-//                        DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
-                String secKey = DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository);
-                interactionRepository.insertInteraction(new Interaction(secKey));
-               mNearbyDevicesArrayAdapter.add(secKey);
-
-=======
                 String secKey = DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository);
                 interactionRepository.insertInteraction(new Interaction(secKey));
                 mNearbyDevicesArrayAdapter.add(secKey);
->>>>>>> e055b75338190d186660ee1667d0ff2ae1be0b57
             }
 
             @Override

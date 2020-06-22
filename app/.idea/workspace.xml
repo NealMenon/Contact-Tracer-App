@@ -10,36 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc2d653-26ee-4724-b868-a5cf2d129f0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/res/xml/network_security_config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/CentralChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/CentralChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/covidpositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/covidpositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_29_TestBench" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="077ab05c" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -279,9 +258,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="CentralChecker with logs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="89" key="#app" timestamp="1592721627208">
+    <state x="413" y="89" key="#app" timestamp="1592849516508">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="413" y="89" key="#app/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592849516508" />
     <state x="413" y="89" key="#app/0.0.1440.900@0.0.1440.900" timestamp="1592721627208" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1592668465615">
       <screen x="0" y="0" width="1440" height="900" />
@@ -305,32 +285,32 @@
     <state x="153" y="49" key="CommitChangelistDialog2/-480.-1057.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1592817893671" />
     <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592813767367" />
     <state x="153" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592801176502" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1592755197864">
+    <state width="1398" height="487" key="GridCell.Tab.0.bottom" timestamp="1592849487978">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.bottom/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670077" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197864" />
+    <state width="1398" height="487" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592849487978" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592719202592" />
     <state width="1398" height="313" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1592720590407" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1592755197862">
+    <state width="1398" height="487" key="GridCell.Tab.0.center" timestamp="1592849487973">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.center/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670073" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197862" />
+    <state width="1398" height="487" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592849487973" />
     <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592719202590" />
     <state width="1398" height="313" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1592720590405" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1592755197860">
+    <state width="1398" height="487" key="GridCell.Tab.0.left" timestamp="1592849487961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.left/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670071" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197860" />
+    <state width="1398" height="487" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592849487961" />
     <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592719202576" />
     <state width="1398" height="313" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1592720590400" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1592755197863">
+    <state width="1398" height="487" key="GridCell.Tab.0.right" timestamp="1592849487976">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.right/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670075" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197863" />
+    <state width="1398" height="487" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592849487976" />
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592719202591" />
     <state width="1398" height="313" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1592720590406" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1592817902372">
