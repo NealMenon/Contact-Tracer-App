@@ -6,302 +6,302 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
+8-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
+9-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:4:5-66
-11-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:4:22-64
+11-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:4:5-66
+11-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-12-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/98db8d8bdfbf22d29714a0efcdd37eb1/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:5-76
-12-->[com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/98db8d8bdfbf22d29714a0efcdd37eb1/jetified-debug-db-base-1.0.6/AndroidManifest.xml:30:22-73
+12-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\a8192c5df91c4f30074713e9e495ea4f\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:5-76
+12-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\a8192c5df91c4f30074713e9e495ea4f\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:22-73
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/6310f008778e7c788e0cc5ddbe41a083/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:19:5-79
-13-->[com.google.android.gms:play-services-nearby:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/6310f008778e7c788e0cc5ddbe41a083/jetified-play-services-nearby-9.0.0/AndroidManifest.xml:19:22-76
+13-->[com.google.android.gms:play-services-nearby:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\dfa801265d104b6048dae7d9cf2f6972\jetified-play-services-nearby-9.0.0\AndroidManifest.xml:19:5-79
+13-->[com.google.android.gms:play-services-nearby:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\dfa801265d104b6048dae7d9cf2f6972\jetified-play-services-nearby-9.0.0\AndroidManifest.xml:19:22-76
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:25:5-68
-14-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:25:22-65
+14-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:25:5-68
+14-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:25:22-65
 15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:27:5-81
-15-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:27:22-78
+15-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:27:5-81
+15-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:27:22-78
 16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-16-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:28:5-77
-16-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:28:22-74
+16-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:28:5-77
+16-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:28:22-74
 17
 18    <application
-18-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:5:5-26:19
+18-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:5:5-26:19
 19        android:allowBackup="true"
-19-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:6:9-35
+19-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:6:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.1.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.1.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:7:9-43
+22-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:7:9-43
 23        android:label="@string/app_name"
-23-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:8:9-41
+23-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:8:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:9:9-54
+24-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:9:9-54
 25        android:supportsRtl="true"
-25-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:10:9-35
+25-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:10:9-35
 26        android:testOnly="true"
 27        android:theme="@style/AppTheme" >
-27-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:11:9-40
+27-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:11:9-40
 28        <activity android:name="com.example.contact_tracer_appv2.Device.covidpositive" >
-28-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:12:9-13:20
-28-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:12:19-55
+28-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:12:9-13:20
+28-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:12:19-55
 29        </activity>
 30
 31        <meta-data
-31-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:15:9-17:71
+31-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:15:9-17:71
 32            android:name="com.google.android.nearby.messages.API_KEY"
-32-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:16:13-70
+32-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:16:13-70
 33            android:value="AIzaSyC3DeKUQjiEG5IiZWxnOn1gda9AFWHgNVc" />
-33-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:17:13-68
+33-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:17:13-68
 34
 35        <activity android:name="com.example.contact_tracer_appv2.MainActivity" >
-35-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:19:9-25:20
-35-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:19:19-47
+35-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:19:9-25:20
+35-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:19:19-47
 36            <intent-filter>
-36-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:20:13-24:29
+36-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:20:13-24:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:21:17-69
-37-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:21:25-66
+37-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:21:17-69
+37-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:21:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:23:17-77
-39-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:23:27-74
+39-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:23:17-77
+39-->E:\test2\Contact-Tracer-App\app\src\main\AndroidManifest.xml:23:27-74
 40            </intent-filter>
 41        </activity>
 42
 43        <provider
-43-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/531129a92888b7f56616e769c1d84844/jetified-debug-db-1.0.6/AndroidManifest.xml:12:9-16:40
+43-->[com.amitshekhar.android:debug-db:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\531129a92888b7f56616e769c1d84844\jetified-debug-db-1.0.6\AndroidManifest.xml:12:9-16:40
 44            android:name="com.amitshekhar.debug.DebugDBInitProvider"
-44-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/531129a92888b7f56616e769c1d84844/jetified-debug-db-1.0.6/AndroidManifest.xml:13:13-69
+44-->[com.amitshekhar.android:debug-db:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\531129a92888b7f56616e769c1d84844\jetified-debug-db-1.0.6\AndroidManifest.xml:13:13-69
 45            android:authorities="com.example.contact_tracer_appv2.DebugDBInitProvider"
-45-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/531129a92888b7f56616e769c1d84844/jetified-debug-db-1.0.6/AndroidManifest.xml:14:13-71
+45-->[com.amitshekhar.android:debug-db:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\531129a92888b7f56616e769c1d84844\jetified-debug-db-1.0.6\AndroidManifest.xml:14:13-71
 46            android:enabled="true"
-46-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/531129a92888b7f56616e769c1d84844/jetified-debug-db-1.0.6/AndroidManifest.xml:15:13-35
+46-->[com.amitshekhar.android:debug-db:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\531129a92888b7f56616e769c1d84844\jetified-debug-db-1.0.6\AndroidManifest.xml:15:13-35
 47            android:exported="false" />
-47-->[com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/531129a92888b7f56616e769c1d84844/jetified-debug-db-1.0.6/AndroidManifest.xml:16:13-37
+47-->[com.amitshekhar.android:debug-db:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\531129a92888b7f56616e769c1d84844\jetified-debug-db-1.0.6\AndroidManifest.xml:16:13-37
 48        <provider
-48-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:31:9-37:35
+48-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:31:9-37:35
 49            android:name="androidx.work.impl.WorkManagerInitializer"
-49-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:32:13-69
+49-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:32:13-69
 50            android:authorities="com.example.contact_tracer_appv2.workmanager-init"
-50-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:33:13-68
+50-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:33:13-68
 51            android:directBootAware="false"
-51-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:34:13-44
+51-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:34:13-44
 52            android:exported="false"
-52-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:35:13-37
+52-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:35:13-37
 53            android:multiprocess="true" />
-53-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:36:13-40
+53-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:36:13-40
 54
 55        <service
-55-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:39:9-44:35
+55-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:39:9-44:35
 56            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-56-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:40:13-88
+56-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:40:13-88
 57            android:directBootAware="false"
-57-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:41:13-44
+57-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:41:13-44
 58            android:enabled="@bool/enable_system_alarm_service_default"
-58-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:42:13-72
+58-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:42:13-72
 59            android:exported="false" />
-59-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:43:13-37
+59-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:43:13-37
 60        <service
-60-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:45:9-51:35
+60-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:45:9-51:35
 61            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-61-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:46:13-84
+61-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:46:13-84
 62            android:directBootAware="false"
-62-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:47:13-44
+62-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:47:13-44
 63            android:enabled="@bool/enable_system_job_service_default"
-63-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:48:13-70
+63-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:48:13-70
 64            android:exported="true"
-64-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:49:13-36
+64-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:49:13-36
 65            android:permission="android.permission.BIND_JOB_SERVICE" />
-65-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:50:13-69
+65-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:50:13-69
 66        <service
-66-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:52:9-57:35
+66-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:52:9-57:35
 67            android:name="androidx.work.impl.foreground.SystemForegroundService"
-67-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:53:13-81
+67-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:53:13-81
 68            android:directBootAware="false"
-68-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:54:13-44
+68-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:54:13-44
 69            android:enabled="@bool/enable_system_foreground_service_default"
-69-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:55:13-77
+69-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:55:13-77
 70            android:exported="false" />
-70-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:56:13-37
+70-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:56:13-37
 71
 72        <receiver
-72-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:59:9-64:35
+72-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:59:9-64:35
 73            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-73-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:60:13-88
+73-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:60:13-88
 74            android:directBootAware="false"
-74-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:61:13-44
+74-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:61:13-44
 75            android:enabled="true"
-75-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:62:13-35
+75-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:62:13-35
 76            android:exported="false" />
-76-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:63:13-37
+76-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:63:13-37
 77        <receiver
-77-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:65:9-75:20
+77-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:65:9-75:20
 78            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-78-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:66:13-106
+78-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:66:13-106
 79            android:directBootAware="false"
-79-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:67:13-44
+79-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:67:13-44
 80            android:enabled="false"
-80-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:68:13-36
+80-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:68:13-36
 81            android:exported="false" >
-81-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:69:13-37
+81-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:69:13-37
 82            <intent-filter>
-82-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:71:13-74:29
+82-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:71:13-74:29
 83                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-83-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:72:17-87
-83-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:72:25-84
+83-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:72:17-87
+83-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:72:25-84
 84                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-84-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:73:17-90
-84-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:73:25-87
+84-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:73:17-90
+84-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:73:25-87
 85            </intent-filter>
 86        </receiver>
 87        <receiver
-87-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:76:9-86:20
+87-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:76:9-86:20
 88            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-88-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:77:13-104
+88-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:77:13-104
 89            android:directBootAware="false"
-89-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:78:13-44
+89-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:78:13-44
 90            android:enabled="false"
-90-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:79:13-36
+90-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:79:13-36
 91            android:exported="false" >
-91-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:80:13-37
+91-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:80:13-37
 92            <intent-filter>
-92-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:82:13-85:29
+92-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:82:13-85:29
 93                <action android:name="android.intent.action.BATTERY_OKAY" />
-93-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:83:17-77
-93-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:83:25-74
+93-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:83:17-77
+93-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:83:25-74
 94                <action android:name="android.intent.action.BATTERY_LOW" />
-94-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:84:17-76
-94-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:84:25-73
+94-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:84:17-76
+94-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:84:25-73
 95            </intent-filter>
 96        </receiver>
 97        <receiver
-97-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:87:9-97:20
+97-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:87:9-97:20
 98            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-98-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:88:13-104
+98-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:88:13-104
 99            android:directBootAware="false"
-99-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:89:13-44
+99-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:89:13-44
 100            android:enabled="false"
-100-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:90:13-36
+100-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:90:13-36
 101            android:exported="false" >
-101-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:91:13-37
+101-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:91:13-37
 102            <intent-filter>
-102-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:93:13-96:29
+102-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:93:13-96:29
 103                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-103-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:94:17-83
-103-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:94:25-80
+103-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:94:17-83
+103-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:94:25-80
 104                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-104-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:95:17-82
-104-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:95:25-79
+104-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:95:17-82
+104-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:95:25-79
 105            </intent-filter>
 106        </receiver>
 107        <receiver
-107-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:98:9-107:20
+107-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:98:9-107:20
 108            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-108-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:99:13-103
+108-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:99:13-103
 109            android:directBootAware="false"
-109-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:100:13-44
+109-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:100:13-44
 110            android:enabled="false"
-110-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:101:13-36
+110-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:101:13-36
 111            android:exported="false" >
-111-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:102:13-37
+111-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:102:13-37
 112            <intent-filter>
-112-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:104:13-106:29
+112-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:104:13-106:29
 113                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-113-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:105:17-79
-113-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:105:25-76
+113-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:105:17-79
+113-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:105:25-76
 114            </intent-filter>
 115        </receiver>
 116        <receiver
-116-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:108:9-119:20
+116-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:108:9-119:20
 117            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-117-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:109:13-88
+117-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:109:13-88
 118            android:directBootAware="false"
-118-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:110:13-44
+118-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:110:13-44
 119            android:enabled="false"
-119-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:111:13-36
+119-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:111:13-36
 120            android:exported="false" >
-120-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:112:13-37
+120-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:112:13-37
 121            <intent-filter>
-121-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:114:13-118:29
+121-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:114:13-118:29
 122                <action android:name="android.intent.action.BOOT_COMPLETED" />
-122-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:115:17-79
-122-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:115:25-76
+122-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:115:17-79
+122-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:115:25-76
 123                <action android:name="android.intent.action.TIME_SET" />
-123-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:116:17-73
-123-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:116:25-70
+123-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:116:17-73
+123-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:116:25-70
 124                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-124-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:117:17-81
-124-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:117:25-78
+124-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:117:17-81
+124-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:117:25-78
 125            </intent-filter>
 126        </receiver>
 127        <receiver
-127-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:120:9-129:20
+127-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:120:9-129:20
 128            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-128-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:121:13-99
+128-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:121:13-99
 129            android:directBootAware="false"
-129-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:122:13-44
+129-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:122:13-44
 130            android:enabled="@bool/enable_system_alarm_service_default"
-130-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:123:13-72
+130-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:123:13-72
 131            android:exported="false" >
-131-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:124:13-37
+131-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:124:13-37
 132            <intent-filter>
-132-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:126:13-128:29
+132-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:126:13-128:29
 133                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-133-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:127:17-98
-133-->[androidx.work:work-runtime:2.3.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/edc8b6813fea1d3d8f528c9d5989fc22/work-runtime-2.3.3/AndroidManifest.xml:127:25-95
+133-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:127:17-98
+133-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:127:25-95
 134            </intent-filter>
 135        </receiver>
 136
 137        <service
-137-->[androidx.room:room-runtime:2.2.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1ea30ca842b836ae7456dec73c4cca66/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+137-->[androidx.room:room-runtime:2.2.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\1ea30ca842b836ae7456dec73c4cca66\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
 138            android:name="androidx.room.MultiInstanceInvalidationService"
-138-->[androidx.room:room-runtime:2.2.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1ea30ca842b836ae7456dec73c4cca66/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+138-->[androidx.room:room-runtime:2.2.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\1ea30ca842b836ae7456dec73c4cca66\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
 139            android:exported="false" />
-139-->[androidx.room:room-runtime:2.2.3] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/1ea30ca842b836ae7456dec73c4cca66/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+139-->[androidx.room:room-runtime:2.2.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\1ea30ca842b836ae7456dec73c4cca66\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
 140
 141        <activity
-141-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a8ac191d62871d408b6207edb995cbdb/jetified-play-services-base-9.0.0/AndroidManifest.xml:20:9-22:45
+141-->[com.google.android.gms:play-services-base:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\afe191cbc0e59d55d320ac30040e2a7b\jetified-play-services-base-9.0.0\AndroidManifest.xml:20:9-22:45
 142            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-142-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a8ac191d62871d408b6207edb995cbdb/jetified-play-services-base-9.0.0/AndroidManifest.xml:20:19-85
+142-->[com.google.android.gms:play-services-base:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\afe191cbc0e59d55d320ac30040e2a7b\jetified-play-services-base-9.0.0\AndroidManifest.xml:20:19-85
 143            android:exported="false"
-143-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a8ac191d62871d408b6207edb995cbdb/jetified-play-services-base-9.0.0/AndroidManifest.xml:22:19-43
+143-->[com.google.android.gms:play-services-base:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\afe191cbc0e59d55d320ac30040e2a7b\jetified-play-services-base-9.0.0\AndroidManifest.xml:22:19-43
 144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-144-->[com.google.android.gms:play-services-base:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a8ac191d62871d408b6207edb995cbdb/jetified-play-services-base-9.0.0/AndroidManifest.xml:21:19-78
+144-->[com.google.android.gms:play-services-base:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\afe191cbc0e59d55d320ac30040e2a7b\jetified-play-services-base-9.0.0\AndroidManifest.xml:21:19-78
 145
 146        <provider
-146-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0702097f6af5c4cf375406f9b7abffcf/jetified-firebase-common-9.0.0/AndroidManifest.xml:7:9-11:39
+146-->[com.google.firebase:firebase-common:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\30d936f4425bee82d23dfafa29614a4d\jetified-firebase-common-9.0.0\AndroidManifest.xml:7:9-11:39
 147            android:name="com.google.firebase.provider.FirebaseInitProvider"
-147-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0702097f6af5c4cf375406f9b7abffcf/jetified-firebase-common-9.0.0/AndroidManifest.xml:9:13-58
+147-->[com.google.firebase:firebase-common:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\30d936f4425bee82d23dfafa29614a4d\jetified-firebase-common-9.0.0\AndroidManifest.xml:9:13-58
 148            android:authorities="com.example.contact_tracer_appv2.firebaseinitprovider"
-148-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0702097f6af5c4cf375406f9b7abffcf/jetified-firebase-common-9.0.0/AndroidManifest.xml:8:13-72
+148-->[com.google.firebase:firebase-common:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\30d936f4425bee82d23dfafa29614a4d\jetified-firebase-common-9.0.0\AndroidManifest.xml:8:13-72
 149            android:exported="false"
-149-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0702097f6af5c4cf375406f9b7abffcf/jetified-firebase-common-9.0.0/AndroidManifest.xml:10:13-37
+149-->[com.google.firebase:firebase-common:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\30d936f4425bee82d23dfafa29614a4d\jetified-firebase-common-9.0.0\AndroidManifest.xml:10:13-37
 150            android:initOrder="100" />
-150-->[com.google.firebase:firebase-common:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/0702097f6af5c4cf375406f9b7abffcf/jetified-firebase-common-9.0.0/AndroidManifest.xml:11:13-36
+150-->[com.google.firebase:firebase-common:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\30d936f4425bee82d23dfafa29614a4d\jetified-firebase-common-9.0.0\AndroidManifest.xml:11:13-36
 151
 152        <meta-data
-152-->[com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/3a7fd92dc5c9f19131462ebaf5c1b7e6/jetified-play-services-basement-9.0.0/AndroidManifest.xml:21:9-23:69
+152-->[com.google.android.gms:play-services-basement:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\8cb65b9fc93d156945a7a37f098b156f\jetified-play-services-basement-9.0.0\AndroidManifest.xml:21:9-23:69
 153            android:name="com.google.android.gms.version"
-153-->[com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/3a7fd92dc5c9f19131462ebaf5c1b7e6/jetified-play-services-basement-9.0.0/AndroidManifest.xml:22:13-58
+153-->[com.google.android.gms:play-services-basement:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\8cb65b9fc93d156945a7a37f098b156f\jetified-play-services-basement-9.0.0\AndroidManifest.xml:22:13-58
 154            android:value="@integer/google_play_services_version" />
-154-->[com.google.android.gms:play-services-basement:9.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/3a7fd92dc5c9f19131462ebaf5c1b7e6/jetified-play-services-basement-9.0.0/AndroidManifest.xml:23:13-66
+154-->[com.google.android.gms:play-services-basement:9.0.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\8cb65b9fc93d156945a7a37f098b156f\jetified-play-services-basement-9.0.0\AndroidManifest.xml:23:13-66
 155
 156        <provider
-156-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/12565117c533432cd60af9b41fd49aa9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+156-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\12565117c533432cd60af9b41fd49aa9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 157            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-157-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/12565117c533432cd60af9b41fd49aa9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+157-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\12565117c533432cd60af9b41fd49aa9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 158            android:authorities="com.example.contact_tracer_appv2.lifecycle-process"
-158-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/12565117c533432cd60af9b41fd49aa9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+158-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\12565117c533432cd60af9b41fd49aa9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 159            android:exported="false"
-159-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/12565117c533432cd60af9b41fd49aa9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+159-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\12565117c533432cd60af9b41fd49aa9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 160            android:multiprocess="true" />
-160-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/12565117c533432cd60af9b41fd49aa9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+160-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\12565117c533432cd60af9b41fd49aa9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 161    </application>
 162
 163</manifest>

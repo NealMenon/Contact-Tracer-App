@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         }
         return uuid;
     }
-    private TracerDatabase tracerDB;
+    public static TracerDatabase tracerDB;
     private InteractionRepository interactionRepository;
     private EphSecretKeyRepository ephSecretKeyRepository;
 
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
         textViewResult = findViewById(R.id.text_view_result);
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://6ef509276f15.ngrok.io/")
+                .baseUrl("http://40.81.226.196/contact-tracer-server/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -177,8 +177,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
-                mNearbyDevicesArrayAdapter.add(
-                        DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
+//                mNearbyDevicesArrayAdapter.add(
+//                        DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
+                String secKey = DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository);
+                interactionRepository.insertInteraction(new Interaction(secKey));
+               mNearbyDevicesArrayAdapter.add(secKey);
 
             }
 
@@ -262,10 +265,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         if (mSubscribeSwitch.isChecked()) {
             subscribe();
         }
-        for(int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
-            interactionRepository.insertInteraction(new Interaction(mNearbyDevicesArrayAdapter.getItem(i)));
-        }
-        mNearbyDevicesArrayAdapter.clear();
+//        for(int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
+//            interactionRepository.insertInteraction(new Interaction(mNearbyDevicesArrayAdapter.getItem(i)));
+//        }
+//        mNearbyDevicesArrayAdapter.clear();
     }
     private void subscribe() {
         Log.i(TAG, "Subscribing");
