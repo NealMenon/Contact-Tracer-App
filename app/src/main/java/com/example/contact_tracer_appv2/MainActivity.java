@@ -140,8 +140,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 }
                 CentralChecker ck = new CentralChecker(tracerDB, centralRepo);
                 threatLevel = ck.runThrough(threatLevel);
+                logAndShowSnackbar("ThreatLevel is " + threatLevel);
 //                switch threatLevel {
-//                    case 0: no threat;
+//                    9case 0: no threat;
 //                    break;
 //                    case 1: some threat;
 //                    break;

@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6cc2d653-26ee-4724-b868-a5cf2d129f0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/CentralChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/CentralChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592813769298</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Intriduced threatLevel from CentralChecker">
+      <created>1592815521358</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592815521358</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,7 +238,8 @@
     <MESSAGE value="Add interaction directly from onFound" />
     <MESSAGE value="Create CentralChecker on api call" />
     <MESSAGE value="Minor update on Periodicity of WorkRequest to 1 hour" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor update on Periodicity of WorkRequest to 1 hour" />
+    <MESSAGE value="Intriduced threatLevel from CentralChecker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intriduced threatLevel from CentralChecker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="89" key="#app" timestamp="1592721627208">
@@ -247,9 +254,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="575" y="304" key="AndroidCreateXmlResourceDialog/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592733784467" />
-    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1592813767367">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="153" y="49" key="CommitChangelistDialog2" timestamp="1592815520597">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="153" y="49" key="CommitChangelistDialog2/-480.-1057.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1592815520597" />
     <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592813767367" />
     <state x="153" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592801176502" />
     <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1592755197864">
@@ -280,9 +288,10 @@
     <state width="1398" height="195" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197863" />
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592719202591" />
     <state width="1398" height="313" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1592720590406" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592813777539">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1592815533112">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2/-480.-1057.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1592815533112" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592813777539" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592801192359" />
     <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592810736635">
