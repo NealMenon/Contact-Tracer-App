@@ -16,14 +16,12 @@ public class CentralChecker {
 
     private TracerDatabase tracerDB;
     private List<String> centralRepo;
-//    private List<Interaction> interactionsList;
-//    private List<String> interactionKeys;
+
 
     public CentralChecker(TracerDatabase tracerDB, List<String> centralRepo) {
         this.tracerDB = tracerDB;
         this.centralRepo = centralRepo;
-//        interactionKeys = tracerDB.interactionDAO().getAllInteractionsKeys();
-//        interactionList = tracerDB.interactionDAO().getAllInteractions();
+
     }
 
     public void runThrough() {
@@ -66,7 +64,7 @@ public class CentralChecker {
 
     private boolean checkEphSecretKeys(String seed) {
         List<String> ephKeys = genEphKeys(seed);
-        // check whether any ephKeys generated are in interactionKeys;
+        // check whether any ephKeys generated are in interactions_table;
         for(String eSK : ephKeys) {
             List<Interaction> rec = tracerDB.interactionDAO().getInteractionByEphSK(eSK);
             if(!rec.isEmpty()) {

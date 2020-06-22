@@ -30,6 +30,7 @@ import com.example.contact_tracer_appv2.Database.Model.Interaction;
 import com.example.contact_tracer_appv2.Database.Repository.EphSecretKeyRepository;
 import com.example.contact_tracer_appv2.Database.Repository.InteractionRepository;
 import com.example.contact_tracer_appv2.Database.TracerDatabase;
+import com.example.contact_tracer_appv2.Device.CentralChecker;
 import com.example.contact_tracer_appv2.Device.DeviceMessage;
 import com.example.contact_tracer_appv2.Device.covidpositive;
 import com.example.contact_tracer_appv2.Device.JsonPlaceHolderApi;
@@ -125,14 +126,17 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                     textViewResult.setText("Code: "+ response.code());
                 }
                 List<Post> posts = response.body();
-
+                List<String> centralRepo = new ArrayList<String>();
                 for(Post post: posts) {
                     String content = "";
-                    content += "secret_key" + post.getSecret_key() + "\n";
+                    String secKey = post.getSecret_key();
+                    centralRepo.add(secKey);
+                    content += "secret_key" + secKey + "\n";
                     content += "timestamp" + post.getTimestamp() + "\n";
-
                     textViewResult.append(content);
                 }
+                CentralChecker ck = new CentralChecker(tracerDB, centralRepo);
+                ck.runThrough();
             }
 
             @Override
