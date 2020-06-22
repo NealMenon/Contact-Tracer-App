@@ -2,9 +2,14 @@ package com.example.contact_tracer_appv2.Device;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
+import com.example.contact_tracer_appv2.Database.Model.SecretKey;
+import com.example.contact_tracer_appv2.Database.TracerDatabase;
 import com.example.contact_tracer_appv2.R;
+
+import java.text.SimpleDateFormat;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -23,7 +28,7 @@ public class covidpositive extends AppCompatActivity {
 
         textViewResult2 = findViewById(R.id.text_view_result2);
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(" http://2d751f09f8e7.ngrok.io/")
+                .baseUrl("http://6ef509276f15.ngrok.io/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         jsonPlaceHolderApi2 = retrofit.create(JsonPlaceHolderApi2.class);
@@ -32,7 +37,10 @@ public class covidpositive extends AppCompatActivity {
 
     }
     private void createPost2() {
-        Post2 post2 = new Post2("defaulttest");
+
+        String mySecretKey = TracerDatabase.getInstance(getApplicationContext()).secretKeyDAO()
+                .getSecretKeyByDate(new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date())).getSecretKey();
+        Post2 post2 = new Post2(mySecretKey);
 
         Call<Post2> call = jsonPlaceHolderApi2.createPost2(post2);
 

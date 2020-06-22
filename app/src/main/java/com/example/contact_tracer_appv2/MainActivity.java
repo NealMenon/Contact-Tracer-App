@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
         textViewResult = findViewById(R.id.text_view_result);
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://2d751f09f8e7.ngrok.io/")
+                .baseUrl("http://6ef509276f15.ngrok.io/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -163,9 +163,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
-                String receivedKey = DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository);
-                mNearbyDevicesArrayAdapter.add(receivedKey);
-                interactionRepository.insertInteraction(new Interaction(receivedKey));
+                mNearbyDevicesArrayAdapter.add(
+                        DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
+
             }
 
             @Override
@@ -248,10 +248,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         if (mSubscribeSwitch.isChecked()) {
             subscribe();
         }
-//        for(int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
-//            interactionRepository.insertInteraction(new Interaction(mNearbyDevicesArrayAdapter.getItem(i)));
-//        }
-//        mNearbyDevicesArrayAdapter.clear();
+        for(int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
+            interactionRepository.insertInteraction(new Interaction(mNearbyDevicesArrayAdapter.getItem(i)));
+        }
+        mNearbyDevicesArrayAdapter.clear();
     }
     private void subscribe() {
         Log.i(TAG, "Subscribing");

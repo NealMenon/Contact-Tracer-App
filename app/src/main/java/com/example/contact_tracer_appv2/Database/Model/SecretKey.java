@@ -39,15 +39,13 @@ public class SecretKey {
     public SecretKey() { // only on db create
         Log.d("Data", "New FIRST SecretKey");
         this.secretKey = this.generateKey(generateSeed());
-//        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
-        this.dateString = new java.util.Date().toString();
+        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
     }
 
     public SecretKey(SecretKey old) { // subsequent new SKs
         this.secretKey = this.generateKey(old.getSecretKey());
         Log.d("Data", "New SK");
-//        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
-        this.dateString = new java.util.Date().toString();
+        this.dateString = new SimpleDateFormat("yyyy.MM.dd").format(new java.util.Date());
     }
 
     private String generateSeed() {
