@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         setContentView(R.layout.activity_main);
 
         tracerDB = TracerDatabase.getInstance(MainActivity.this);  // THIS BLOCK CREATES THE DATABASE. INCLUDE IN MAIN ACTIVITY
-        PeriodicWorkRequest workRequest = new PeriodicWorkRequest.Builder(DBUpdateWorker.class, 15, TimeUnit.MINUTES)
+        PeriodicWorkRequest workRequest = new PeriodicWorkRequest.Builder(DBUpdateWorker.class, 1, TimeUnit.HOURS)
                 .build();
         WorkManager mWorkManager = WorkManager.getInstance();
         mWorkManager.enqueueUniquePeriodicWork("Updating_SK_and_ESK", ExistingPeriodicWorkPolicy.KEEP, workRequest);

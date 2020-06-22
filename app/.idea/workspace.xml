@@ -10,8 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc2d653-26ee-4724-b868-a5cf2d129f0a" name="Default Changelist" comment="Add interaction directly from onFound">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6cc2d653-26ee-4724-b868-a5cf2d129f0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +18,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_29_TestBench" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="077ab05c" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592801178431</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create CentralChecker on api call">
+      <created>1592813665052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592813665053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,7 +221,8 @@
     <MESSAGE value="All files merged with Sachin. Timely update or SK and ESK tables, Covid positive button implemented" />
     <MESSAGE value="Add interaction from mNearbyDevicesAdapterArray" />
     <MESSAGE value="Add interaction directly from onFound" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add interaction directly from onFound" />
+    <MESSAGE value="Create CentralChecker on api call" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create CentralChecker on api call" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="89" key="#app" timestamp="1592721627208">
@@ -230,10 +237,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="575" y="304" key="AndroidCreateXmlResourceDialog/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592733784467" />
-    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1592813465182">
+    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1592813664536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592813465182" />
+    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592813664536" />
     <state x="153" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592801176502" />
     <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1592755197864">
       <screen x="0" y="0" width="1440" height="900" />
