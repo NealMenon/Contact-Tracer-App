@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/ae1d35eafe2c079a5909d4a9c0fb5360/navigation-ui-ktx-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0-alpha05] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/45ff6bef557af96c12b003af99c7fc1c/navigation-ui-2.1.0-alpha05/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bcaf2f38bd0e6ffe04a17e5f685cbed4/material-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -67,20 +67,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nealmenon/.gradle/
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/275bb0cd718ded38eec8234e7513c16c/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/fc12b1d7b1a887a81ff1f750b0b473c7/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/6a5aacb22b562922820652a32ac05ba6/print-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:2:11-69
@@ -91,7 +91,7 @@ MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/nealmenon/.grad
 	android:name
 		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:5:5-26:19
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:5:5-28:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bcaf2f38bd0e6ffe04a17e5f685cbed4/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/bcaf2f38bd0e6ffe04a17e5f685cbed4/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/nealmenon/.gradle/caches/transforms-2/files-2.1/531129a92888b7f56616e769c1d84844/jetified-debug-db-1.0.6/AndroidManifest.xml:11:5-17:19
@@ -135,29 +135,29 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/neal
 	android:theme
 		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.contact_tracer_appv2.Device.covidpositive
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:12:9-13:20
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:14:9-15:20
 	android:name
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:12:19-55
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:14:19-55
 meta-data#com.google.android.nearby.messages.API_KEY
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:15:9-17:71
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:17:9-19:71
 	android:value
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:17:13-68
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:19:13-68
 	android:name
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:16:13-70
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:18:13-70
 activity#com.example.contact_tracer_appv2.MainActivity
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:21:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml
