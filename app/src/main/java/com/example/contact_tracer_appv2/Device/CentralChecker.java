@@ -17,6 +17,8 @@ public class CentralChecker {
     private TracerDatabase tracerDB;
     private List<String> centralRepo;
 
+    private String TAG = "CentralCheckerLogs";
+
 
     public CentralChecker(TracerDatabase tracerDB, List<String> centralRepo) {
         this.tracerDB = tracerDB;
@@ -25,11 +27,13 @@ public class CentralChecker {
     }
 
     public int runThrough(int threatLevel) {
+        Log.d(TAG, "Inside runThrough");
         for(String key : centralRepo) {
+            Log.d(TAG, "Checking for key: " + key);
             if(decodeAndCheck(key)) {
                 // EPHSK HIT
                 Log.d("Data", "EphSK HIT CONFIRMED");
-                return threatLevel + 1;
+                threatLevel++;
                 // doSomething()
             }
         }
@@ -37,7 +41,9 @@ public class CentralChecker {
     }
 
     private boolean decodeAndCheck(String key) {
+        Log.d(TAG, "Inside decodeAndCheck with key = " + key );
         for(int i = 0; i < 14; i++) { // 14 days
+            Log.d(TAG, "Day " + i);
             if(checkEphSecretKeys(key)) {
                 return true;
             }
@@ -65,9 +71,11 @@ public class CentralChecker {
 
     private boolean checkEphSecretKeys(String seed) {
         List<String> ephKeys = genEphKeys(seed);
+        Log.d(TAG, "Inside checkEphSK and list of EphSk is " + ephKeys.toString());
         // check whether any ephKeys generated are in interactions_table;
         for(String eSK : ephKeys) {
             List<Interaction> rec = tracerDB.interactionDAO().getInteractionByEphSK(eSK);
+            Log.d(TAG, "Rec = " + rec.toString());
             if(!rec.isEmpty()) {
                 // hit
                 return true;
