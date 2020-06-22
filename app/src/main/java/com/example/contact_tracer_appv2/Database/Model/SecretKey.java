@@ -86,8 +86,6 @@ public class SecretKey {
         catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
-//        Log.d("Database", "Final hash: " + ret);
-//        ret += seed + "B";
         return ret ;
     }
 
