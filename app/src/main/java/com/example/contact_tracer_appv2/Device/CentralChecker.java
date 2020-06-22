@@ -24,15 +24,16 @@ public class CentralChecker {
 
     }
 
-    public void runThrough() {
+    public int runThrough(int threatLevel) {
         for(String key : centralRepo) {
             if(decodeAndCheck(key)) {
                 // EPHSK HIT
                 Log.d("Data", "EphSK HIT CONFIRMED");
+                return threatLevel + 1;
                 // doSomething()
-                break;
             }
         }
+        return threatLevel;
     }
 
     private boolean decodeAndCheck(String key) {

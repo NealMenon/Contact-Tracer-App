@@ -68,6 +68,9 @@ import retrofit2.Call;
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener {
     private TextView textViewResult;
+
+    private int threatLevel = 0;
+
     private static final String TAG = MainActivity.class.getSimpleName();
     private Button covidpositive;
     private static final int TTL_IN_SECONDS = 3 * 60*60;
@@ -136,7 +139,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                     textViewResult.append(content);
                 }
                 CentralChecker ck = new CentralChecker(tracerDB, centralRepo);
-                ck.runThrough();
+                threatLevel = ck.runThrough(threatLevel);
+//                switch threatLevel {
+//                    case 0: no threat;
+//                    break;
+//                    case 1: some threat;
+//                    break;
+//                }
             }
 
             @Override
