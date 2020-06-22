@@ -32,7 +32,7 @@ public class CentralChecker {
             Log.d(TAG, "Checking for key: " + key);
             if(decodeAndCheck(key)) {
                 // EPHSK HIT
-                Log.d("Data", "EphSK HIT CONFIRMED");
+                Log.d(TAG, "EphSK HIT CONFIRMED");
                 threatLevel++;
                 // doSomething()
             }
