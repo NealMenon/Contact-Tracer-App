@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc2d653-26ee-4724-b868-a5cf2d129f0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/Model/Interaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/Model/Interaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/Repository/InteractionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/Repository/InteractionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="077ab05c" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_29_TestBench" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592734180506</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add interaction from mNearbyDevicesAdapterArray">
+      <created>1592753724826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592753724826</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,7 +215,8 @@
     <MESSAGE value="Tracerdb Package rename glitch" />
     <MESSAGE value="Cleaned up TracerDatabase. This has to work :P" />
     <MESSAGE value="All files merged with Sachin. Timely update or SK and ESK tables, Covid positive button implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="All files merged with Sachin. Timely update or SK and ESK tables, Covid positive button implemented" />
+    <MESSAGE value="Add interaction from mNearbyDevicesAdapterArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add interaction from mNearbyDevicesAdapterArray" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="89" key="#app" timestamp="1592721627208">
@@ -223,41 +231,41 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="575" y="304" key="AndroidCreateXmlResourceDialog/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592733784467" />
-    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1592734173924">
+    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1592753724210">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592734173924" />
-    <state width="1398" height="313" key="GridCell.Tab.0.bottom" timestamp="1592732897172">
+    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592753724210" />
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1592755197864">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.bottom/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670077" />
-    <state width="1398" height="313" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592732897172" />
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197864" />
     <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592719202592" />
     <state width="1398" height="313" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1592720590407" />
-    <state width="1398" height="313" key="GridCell.Tab.0.center" timestamp="1592732897169">
+    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1592755197862">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.center/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670073" />
-    <state width="1398" height="313" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592732897169" />
+    <state width="1398" height="195" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197862" />
     <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592719202590" />
     <state width="1398" height="313" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1592720590405" />
-    <state width="1398" height="313" key="GridCell.Tab.0.left" timestamp="1592732897167">
+    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1592755197860">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.left/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670071" />
-    <state width="1398" height="313" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592732897167" />
+    <state width="1398" height="195" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197860" />
     <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592719202576" />
     <state width="1398" height="313" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1592720590400" />
-    <state width="1398" height="313" key="GridCell.Tab.0.right" timestamp="1592732897170">
+    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1592755197863">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.right/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670075" />
-    <state width="1398" height="313" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592732897170" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197863" />
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592719202591" />
     <state width="1398" height="313" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1592720590406" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592734330875">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592753736575">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592734330875" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592753736575" />
   </component>
 </project>

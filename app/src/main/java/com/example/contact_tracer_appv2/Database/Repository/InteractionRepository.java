@@ -9,6 +9,8 @@ package com.example.contact_tracer_appv2.Database.Repository;
 //import com.example.conttracerappdbtest.Database.DataSource.InteractionDataSourceInterface;
 //import com.example.conttracerappdbtest.Database.Model.Interaction;
 
+import android.util.Log;
+
 import com.example.contact_tracer_appv2.Database.DataSource.InteractionDataSource;
 import com.example.contact_tracer_appv2.Database.DataSource.InteractionDataSourceInterface;
 import com.example.contact_tracer_appv2.Database.Model.Interaction;
@@ -44,6 +46,7 @@ public class InteractionRepository implements InteractionDataSourceInterface {
 
     @Override
     public void insertInteraction(Interaction interaction) {
+        Log.d("DatabaseTest", "Check localhost 8080 to confirm that interaction has been noted");
         mLocalDataSource.insertInteraction(interaction);
     }
 

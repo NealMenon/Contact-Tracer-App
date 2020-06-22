@@ -33,12 +33,12 @@ public class Interaction {
     @NonNull
     private String time;
 
-    public Interaction(String ephSK, int duration, int proximity, String time) {
-        this.ephSK = ephSK;
-        this.duration = duration;
-        this.proximity = proximity;
-        this.time = time;
-    }
+//    public Interaction(String ephSK, int duration, int proximity, String time) {
+//        this.ephSK = ephSK;
+//        this.duration = duration;
+//        this.proximity = proximity;
+//        this.time = time;
+//    }
 
     public Interaction(String ephSK) {
         this.ephSK = ephSK;

@@ -163,9 +163,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
-                mNearbyDevicesArrayAdapter.add(
-                        DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
-
+                String receivedKey = DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository);
+                mNearbyDevicesArrayAdapter.add(receivedKey);
+                interactionRepository.insertInteraction(new Interaction(receivedKey));
             }
 
             @Override
@@ -248,10 +248,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         if (mSubscribeSwitch.isChecked()) {
             subscribe();
         }
-        for(int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
-            interactionRepository.insertInteraction(new Interaction(mNearbyDevicesArrayAdapter.getItem(i)));
-        }
-        mNearbyDevicesArrayAdapter.clear();
+//        for(int i = 0; i < mNearbyDevicesArrayAdapter.getCount(); i++) {
+//            interactionRepository.insertInteraction(new Interaction(mNearbyDevicesArrayAdapter.getItem(i)));
+//        }
+//        mNearbyDevicesArrayAdapter.clear();
     }
     private void subscribe() {
         Log.i(TAG, "Subscribing");
