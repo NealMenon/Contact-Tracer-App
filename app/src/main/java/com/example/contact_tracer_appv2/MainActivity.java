@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         GoogleApiClient.OnConnectionFailedListener {
     private TextView textViewResult;
 
-    private int threatLevel = 0;
+    private int threatLevel = 2;
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private Button covidpositive;
@@ -99,6 +99,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(threatLevel != 0) {
+            setTheme(R.style.HighThreatTheme);
+        }
         setContentView(R.layout.activity_main);
 
         tracerDB = TracerDatabase.getInstance(MainActivity.this);  // THIS BLOCK CREATES THE DATABASE. INCLUDE IN MAIN ACTIVITY
@@ -141,12 +144,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 CentralChecker ck = new CentralChecker(tracerDB, centralRepo);
                 threatLevel = ck.runThrough(threatLevel);
                 logAndShowSnackbar("ThreatLevel is " + threatLevel);
-//                switch threatLevel {
-//                    9case 0: no threat;
-//                    break;
-//                    case 1: some threat;
-//                    break;
-//                }
+                if(threatLevel != 0) {
+                    setTheme(R.style.HighThreatTheme);
+                    setContentView(R.layout.activity_main);
+                }
             }
 
             @Override

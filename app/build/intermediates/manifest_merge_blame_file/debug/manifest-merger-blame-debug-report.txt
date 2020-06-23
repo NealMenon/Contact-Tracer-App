@@ -47,8 +47,8 @@
 26        android:supportsRtl="true"
 26-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:10:9-35
 27        android:testOnly="true"
-28        android:theme="@style/AppTheme"
-28-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:11:9-40
+28        android:theme="@style/AppThemeBasic"
+28-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:11:9-45
 29        android:usesCleartextTraffic="true" >
 29-->/Users/nealmenon/Desktop/Programming/temp/Contact-Tracer-App/app/src/main/AndroidManifest.xml:13:9-44
 30        <activity android:name="com.example.contact_tracer_appv2.Device.covidpositive" >
