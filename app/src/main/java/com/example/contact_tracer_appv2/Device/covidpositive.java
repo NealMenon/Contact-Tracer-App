@@ -28,7 +28,7 @@ public class covidpositive extends AppCompatActivity {
 
         textViewResult2 = findViewById(R.id.text_view_result2);
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://40.81.226.196/contact-tracer-server/")
+                .baseUrl("http://40.81.226.196/contact-tracer-server/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         jsonPlaceHolderApi2 = retrofit.create(JsonPlaceHolderApi2.class);

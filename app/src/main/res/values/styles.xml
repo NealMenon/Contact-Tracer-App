@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="AppThemeBasic" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -17,8 +17,7 @@
         <item name="switchStyle">@style/MySwitchCompatStyle</item>
     </style>
 
-
-    <style name="AppThemeBasic.NoActionBar">
+    <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

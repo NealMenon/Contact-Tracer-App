@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         GoogleApiClient.OnConnectionFailedListener {
     private TextView textViewResult;
 
-    private int threatLevel = 2;
+    private int threatLevel = 0;
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private Button covidpositive;
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
         textViewResult = findViewById(R.id.text_view_result);
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://40.81.226.196/contact-tracer-server/")
+                .baseUrl("http://40.81.226.196/contact-tracer-server/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -148,6 +148,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                     setTheme(R.style.HighThreatTheme);
                     setContentView(R.layout.activity_main);
                 }
+
+//                switch threatLevel {
+//                    9case 0: no threat;
+//                    break;
+//                    case 1: some threat;
+//                    break;
+//                }
             }
 
             @Override
@@ -178,9 +185,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         mMessageListener = new MessageListener() {
             @Override
             public void onFound(final Message message) {
+//                mNearbyDevicesArrayAdapter.add(
+//                        DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
                 String secKey = DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository);
                 interactionRepository.insertInteraction(new Interaction(secKey));
                 mNearbyDevicesArrayAdapter.add(secKey);
+
             }
 
             @Override
