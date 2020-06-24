@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/HighThreatTheme"
-    tools:context=".covidpositive"
+    tools:context=".Device.covidpositive"
     android:background="@drawable/picture1"
     android:layout_marginTop="0dp">
 
