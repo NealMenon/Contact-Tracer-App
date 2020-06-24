@@ -3,19 +3,25 @@ package com.example.contact_tracer_appv2;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.view.ContextThemeWrapper;
 import androidx.appcompat.widget.SwitchCompat;
+import androidx.navigation.ui.AppBarConfiguration;
 import androidx.work.Data;
 import androidx.work.ExistingPeriodicWorkPolicy;
 import androidx.work.OneTimeWorkRequest;
 import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkManager;
 
+import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -69,14 +75,16 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         GoogleApiClient.OnConnectionFailedListener {
     private TextView textViewResult;
 
-    private int threatLevel = 0;
+    private static int threatLevel = 0;
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private Button covidpositive;
     private static final int TTL_IN_SECONDS = 3 * 60*60;
     private static final String KEY_UUID = "key_uuid";
+//    private static final Strategy PUB_SUB_STRATEGY = new Strategy.Builder()
+//            .setTtlSeconds(TTL_IN_SECONDS).build();
     private static final Strategy PUB_SUB_STRATEGY = new Strategy.Builder()
-            .setTtlSeconds(TTL_IN_SECONDS).build();
+        .setTtlSeconds(TTL_IN_SECONDS).setDistanceType(Strategy.DISTANCE_TYPE_EARSHOT).build();
     private static String getUUID(SharedPreferences sharedPreferences) {
         String uuid = sharedPreferences.getString(KEY_UUID, "");
         if (TextUtils.isEmpty(uuid)) {
@@ -99,10 +107,18 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if(threatLevel != 0) {
-            setTheme(R.style.HighThreatTheme);
-        }
         setContentView(R.layout.activity_main);
+//
+//        if(threatLevel != 0) {
+//            Log.d("Color", "aThreatlevel not 0");
+//            setTheme(R.style.HighThreatTheme);
+//        } else {
+//            Log.d("Color", "aThreatlevel is 0");
+//            setTheme(R.style.AppTheme);
+//        }
+//        setContentView(R.layout.activity_main);
+
+
 
         tracerDB = TracerDatabase.getInstance(MainActivity.this);  // THIS BLOCK CREATES THE DATABASE. INCLUDE IN MAIN ACTIVITY
         PeriodicWorkRequest workRequest = new PeriodicWorkRequest.Builder(DBUpdateWorker.class, 1, TimeUnit.HOURS)
@@ -144,11 +160,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 CentralChecker ck = new CentralChecker(tracerDB, centralRepo);
                 threatLevel = ck.runThrough(threatLevel);
                 logAndShowSnackbar("ThreatLevel is " + threatLevel);
-                if(threatLevel != 0) {
-                    setTheme(R.style.HighThreatTheme);
-                    setContentView(R.layout.activity_main);
-                }
-
+//                if(threatLevel != 0) {
+//                    setTheme(R.style.HighThreatTheme);
+//                    setContentView(R.layout.activity_main);
+//                }
 //                switch threatLevel {
 //                    9case 0: no threat;
 //                    break;
@@ -189,7 +204,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 //                        DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository));
                 String secKey = DeviceMessage.fromNearbyMessage(message).getMessageBody(ephSecretKeyRepository);
                 interactionRepository.insertInteraction(new Interaction(secKey));
-                mNearbyDevicesArrayAdapter.add(secKey);
+               mNearbyDevicesArrayAdapter.add(secKey);
 
             }
 

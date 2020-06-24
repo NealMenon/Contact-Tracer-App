@@ -10,8 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc2d653-26ee-4724-b868-a5cf2d129f0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/covidpositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Device/covidpositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_covidpositive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_covidpositive.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/network_security_config.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +89,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="project.structure.last.edited" value="SDK Location" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="recommended.upgrade.do.not.ask.for.version" value="3.5.0" />
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -243,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592817894230</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated colours for threatLevel">
+      <created>1592887676870</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592887676870</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,16 +278,14 @@
     <MESSAGE value="Intriduced threatLevel from CentralChecker" />
     <MESSAGE value="Added snackbar option to threatLevel" />
     <MESSAGE value="CentralChecker with logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="CentralChecker with logs" />
+    <MESSAGE value="Updated colours for threatLevel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated colours for threatLevel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="189" key="#PSD" timestamp="1592847574150">
+    <state x="413" y="89" key="#app" timestamp="1592849516508">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="245" y="189" key="#PSD/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592847574150" />
-    <state x="413" y="89" key="#app" timestamp="1592721627208">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
+    <state x="413" y="89" key="#app/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592849516508" />
     <state x="413" y="89" key="#app/0.0.1440.900@0.0.1440.900" timestamp="1592721627208" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1592668465615">
       <screen x="0" y="0" width="1440" height="900" />
@@ -285,49 +303,49 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="575" y="304" key="AndroidCreateXmlResourceDialog/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592733784467" />
-    <state x="153" y="49" key="CommitChangelistDialog2" timestamp="1592817893671">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1592979261917">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="153" y="49" key="CommitChangelistDialog2/-480.-1057.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1592817893671" />
-    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592813767367" />
-    <state x="153" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592801176502" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1592755197864">
+    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592887674509" />
+    <state x="153" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592979261917" />
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom" timestamp="1592979262121">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.bottom/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670077" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197864" />
-    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592719202592" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592887376786" />
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592979262121" />
     <state width="1398" height="313" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1592720590407" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1592755197862">
+    <state width="1398" height="267" key="GridCell.Tab.0.center" timestamp="1592979262119">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.center/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670073" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197862" />
-    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592719202590" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592887376782" />
+    <state width="1398" height="267" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592979262119" />
     <state width="1398" height="313" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1592720590405" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1592755197860">
+    <state width="1398" height="267" key="GridCell.Tab.0.left" timestamp="1592979262117">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.left/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670071" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197860" />
-    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592719202576" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592887376777" />
+    <state width="1398" height="267" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592979262117" />
     <state width="1398" height="313" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1592720590400" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1592755197863">
+    <state width="1398" height="267" key="GridCell.Tab.0.right" timestamp="1592979262120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="202" key="GridCell.Tab.0.right/-480.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1592652670075" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592755197863" />
-    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592719202591" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592887376784" />
+    <state width="1398" height="267" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592979262120" />
     <state width="1398" height="313" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1592720590406" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1592817902372">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2/-480.-1057.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1592817902372" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592813777539" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592801192359" />
-    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592810736635">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592887744417">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592810736635" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2/-480.-1057.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1592817902372" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592887744417" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592801192359" />
+    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592976324381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592976324381" />
   </component>
 </project>
