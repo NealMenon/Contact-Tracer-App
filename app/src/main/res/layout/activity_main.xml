@@ -11,11 +11,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
+    android:background="@drawable/mainimage"
     >
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
 
@@ -28,17 +29,24 @@
         android:id="@+id/covidpositive"
         />
 
-<!--    <RelativeLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:background="@drawable/picture1">-->
-<!--        &lt;!&ndash;        <ListView&ndash;&gt;-->
-<!--        &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
-<!--        &lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
-<!--        &lt;!&ndash;            android:transcriptMode="alwaysScroll"&ndash;&gt;-->
-<!--        &lt;!&ndash;            />&ndash;&gt;-->
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@drawable/picture1">-->
+    <!--        &lt;!&ndash;        <ListView&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:transcriptMode="alwaysScroll"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            />&ndash;&gt;-->
 
-<!--    </RelativeLayout>-->
+    <!--    </RelativeLayout>-->
+    <Button
+        android:id="@+id/covid_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Track Covid Status" />
+
     <ListView
         android:id="@+id/nearby_devices_list_view"
         android:layout_width="0dp"

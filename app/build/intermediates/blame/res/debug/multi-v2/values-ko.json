@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/nealmenon/Desktop/Programming/temp/CTA/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "E:\\updated\\Contact-Tracer-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/res/values-ko/values-ko.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\03736cf4bc3669a69d502627b70a527e\\core-1.1.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/45ff6bef557af96c12b003af99c7fc1c/navigation-ui-2.1.0-alpha05/res/values-ko/values-ko.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,155",
-                        "endColumns": "99,101",
-                        "endOffsets": "150,252"
-                    },
-                    "to": {
-                        "startLines": "60,61",
-                        "startColumns": "4,4",
-                        "startOffsets": "7013,7113",
-                        "endColumns": "99,101",
-                        "endOffsets": "7108,7210"
-                    }
-                },
-                {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/a8ac191d62871d408b6207edb995cbdb/jetified-play-services-base-9.0.0/res/values-ko/values.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\afe191cbc0e59d55d320ac30040e2a7b\\jetified-play-services-base-9.0.0\\res\\values-ko\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,24 +38,24 @@
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/3a7fd92dc5c9f19131462ebaf5c1b7e6/jetified-play-services-basement-9.0.0/res/values-ko/values.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\45ff6bef557af96c12b003af99c7fc1c\\navigation-ui-2.1.0-alpha05\\res\\values-ko\\values-ko.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "325",
-                        "endColumns": "198",
-                        "endOffsets": "519"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,155",
+                        "endColumns": "99,101",
+                        "endOffsets": "150,252"
                     },
                     "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5372",
-                        "endColumns": "198",
-                        "endOffsets": "5566"
+                        "startLines": "60,61",
+                        "startColumns": "4,4",
+                        "startOffsets": "7013,7113",
+                        "endColumns": "99,101",
+                        "endOffsets": "7108,7210"
                     }
                 },
                 {
-                    "source": "/Users/nealmenon/.gradle/caches/transforms-2/files-2.1/c2c5fa787d66aaf40578b3071f4d283f/appcompat-1.1.0/res/values-ko/values-ko.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\c2c5fa787d66aaf40578b3071f4d283f\\appcompat-1.1.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -86,6 +69,23 @@
                         "startOffsets": "105,202,296,397,479,577,683,763,839,930,1022,1117,1211,1312,1405,1500,1594,1685,1776,1855,1953,2047,2142,2242,2339,2439,2591,7215",
                         "endColumns": "96,93,100,81,97,105,79,75,90,91,94,93,100,92,94,93,90,90,78,97,93,94,99,96,99,151,93,77",
                         "endOffsets": "197,291,392,474,572,678,758,834,925,1017,1112,1206,1307,1400,1495,1589,1680,1771,1850,1948,2042,2137,2237,2334,2434,2586,2680,7288"
+                    }
+                },
+                {
+                    "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\8cb65b9fc93d156945a7a37f098b156f\\jetified-play-services-basement-9.0.0\\res\\values-ko\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "325",
+                        "endColumns": "198",
+                        "endOffsets": "519"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5372",
+                        "endColumns": "198",
+                        "endOffsets": "5566"
                     }
                 }
             ]
