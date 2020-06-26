@@ -1,13 +1,4 @@
-//package com.example.conttracerappdbtest.Database.Repository;
 package com.example.contact_tracer_appv2.Database.Repository;
-
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DataSource.InteractionDataSource;
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DataSource.InteractionDataSourceInterface;
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.Interaction;
-
-//import com.example.conttracerappdbtest.Database.DataSource.InteractionDataSource;
-//import com.example.conttracerappdbtest.Database.DataSource.InteractionDataSourceInterface;
-//import com.example.conttracerappdbtest.Database.Model.Interaction;
 
 import com.example.contact_tracer_appv2.Database.DataSource.InteractionDataSource;
 import com.example.contact_tracer_appv2.Database.DataSource.InteractionDataSourceInterface;

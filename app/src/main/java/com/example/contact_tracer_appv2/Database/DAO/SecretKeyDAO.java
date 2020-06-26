@@ -1,17 +1,13 @@
-//package com.example.conttracerappdbtest.Database.DAO;
 package com.example.contact_tracer_appv2.Database.DAO;
+
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.SecretKey;
-//import com.example.conttracerappdbtest.Database.Model.SecretKey;
-
 import com.example.contact_tracer_appv2.Database.Model.SecretKey;
 
-import java.util.Date;
 import java.util.List;
 
 @Dao

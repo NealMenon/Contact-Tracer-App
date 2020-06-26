@@ -1,5 +1,5 @@
-//package com.example.conttracerappdbtest.Database.DAO;
 package com.example.contact_tracer_appv2.Database.DAO;
+
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -8,8 +8,7 @@ import androidx.room.Query;
 import androidx.room.Update;
 
 import com.example.contact_tracer_appv2.Database.Model.Interaction;
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.Interaction;
-//import com.example.conttracerappdbtest.Database.Model.Interaction;
+
 import java.util.List;
 
 @Dao

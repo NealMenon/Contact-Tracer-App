@@ -10,20 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc2d653-26ee-4724-b868-a5cf2d129f0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/picture1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_covidpositive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_covidpositive.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.settings/org.eclipse.buildship.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/DAO/EphSecretKeyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/DAO/EphSecretKeyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/DAO/InteractionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/DAO/InteractionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/DAO/SecretKeyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/contact_tracer_appv2/Database/DAO/SecretKeyDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="077ab05c" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_29_TestBench" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -300,11 +304,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="575" y="304" key="AndroidCreateXmlResourceDialog/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592733784467" />
-    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1592979294266">
+    <state x="153" y="52" key="CommitChangelistDialog2" timestamp="1593108342648">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="153" y="49" key="CommitChangelistDialog2/-480.-1057.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1592817893671" />
-    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1592887674509" />
+    <state x="153" y="52" key="CommitChangelistDialog2/-480.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1593108342648" />
     <state x="153" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592979294266" />
     <state width="1398" height="267" key="GridCell.Tab.0.bottom" timestamp="1592979262121">
       <screen x="0" y="0" width="1440" height="900" />

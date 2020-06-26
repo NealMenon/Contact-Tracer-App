@@ -1,9 +1,5 @@
 package com.example.contact_tracer_appv2.Database.Repository;
 
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DataSource.EphSecretKeyDataSource;
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DataSource.EphSecretKeyDataSourceInterface;
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.EphSecretKey;
-
 import com.example.contact_tracer_appv2.Database.DataSource.EphSecretKeyDataSource;
 import com.example.contact_tracer_appv2.Database.DataSource.EphSecretKeyDataSourceInterface;
 import com.example.contact_tracer_appv2.Database.Model.EphSecretKey;
@@ -24,7 +20,6 @@ public class EphSecretKeyRepository implements EphSecretKeyDataSourceInterface {
             mInstance = new EphSecretKeyRepository(mLocalDataSource);
         return mInstance;
     }
-
 
 
     @Override

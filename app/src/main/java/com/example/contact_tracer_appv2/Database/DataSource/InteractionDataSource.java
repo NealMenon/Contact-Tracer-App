@@ -1,13 +1,4 @@
-//package com.example.conttracerappdbtest.Database.DataSource;
 package com.example.contact_tracer_appv2.Database.DataSource;
-
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.DAO.InteractionDAO;
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Model.Interaction;
-//import com.google.android.gms.nearby.messages.sachin.nearbydevices.Database.Repository.InteractionRepository;
-
-//import com.example.conttracerappdbtest.Database.DAO.InteractionDAO;
-//import com.example.conttracerappdbtest.Database.Model.Interaction;
-//import com.example.conttracerappdbtest.Database.Repository.InteractionRepository;
 
 import com.example.contact_tracer_appv2.Database.DAO.InteractionDAO;
 import com.example.contact_tracer_appv2.Database.Model.Interaction;
@@ -33,7 +24,6 @@ public class InteractionDataSource implements InteractionDataSourceInterface {
     public List<Interaction> getInteractionByEphSK(String ephSK) {
         return interactionDAO.getInteractionByEphSK(ephSK);
     }
-
 
     public List<Interaction> getAllInteractions() {
         return interactionDAO.getAllInteractions();

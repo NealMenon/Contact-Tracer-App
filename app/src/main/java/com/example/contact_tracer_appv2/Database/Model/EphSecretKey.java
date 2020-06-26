@@ -1,6 +1,5 @@
 //package com.example.conttracerappdbtest.Database.Model;
 package com.example.contact_tracer_appv2.Database.Model;
-import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
