@@ -37,7 +37,7 @@
 
         <meta-data
             android:name="com.google.android.nearby.messages.API_KEY"
-            android:value="AIzaSyC3DeKUQjiEG5IiZWxnOn1gda9AFWHgNVc" />
+            android:value="AIzaSyCHKJt1xS9Ml39tzOqP6FVx0YLfEXd4zOg" />
 
         <provider
             android:name="com.amitshekhar.debug.DebugDBInitProvider"

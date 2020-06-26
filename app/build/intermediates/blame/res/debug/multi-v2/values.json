@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\updated\\Contact-Tracer-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\final app\\Contact-Tracer-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "E:\\updated\\Contact-Tracer-App\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,6,7,2,3",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "157,206,251,57,105",
-                        "endColumns": "45,43,47,46,50",
-                        "endOffsets": "198,245,294,99,151"
-                    },
-                    "to": {
-                        "startLines": "196,197,198,199,200",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "10233,10279,10323,10371,10418",
-                        "endColumns": "45,43,47,46,50",
-                        "endOffsets": "10274,10318,10366,10413,10464"
-                    }
-                },
                 {
                     "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\45ff6bef557af96c12b003af99c7fc1c\\navigation-ui-2.1.0-alpha05\\res\\values\\values.xml",
                     "from": {
@@ -35,23 +18,6 @@
                         "startOffsets": "35411,43502,43578",
                         "endColumns": "52,75,86",
                         "endOffsets": "35459,43573,43660"
-                    }
-                },
-                {
-                    "source": "E:\\updated\\Contact-Tracer-App\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3,6,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "90,149,257,208",
-                        "endColumns": "57,55,45,47",
-                        "endOffsets": "143,200,298,251"
-                    },
-                    "to": {
-                        "startLines": "360,361,431,499",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "21463,21521,26209,30295",
-                        "endColumns": "57,55,45,47",
-                        "endOffsets": "21516,21572,26250,30338"
                     }
                 },
                 {
@@ -112,6 +78,23 @@
                     }
                 },
                 {
+                    "source": "E:\\final app\\Contact-Tracer-App\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,6,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "90,149,257,208",
+                        "endColumns": "57,55,45,47",
+                        "endOffsets": "143,200,298,251"
+                    },
+                    "to": {
+                        "startLines": "360,361,431,499",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "21463,21521,26209,30295",
+                        "endColumns": "57,55,45,47",
+                        "endOffsets": "21516,21572,26250,30338"
+                    }
+                },
+                {
                     "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\87e1416213a0b0a66130bb4e9f6bae0c\\navigation-fragment-2.1.0-alpha05\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,5,8",
@@ -169,6 +152,23 @@
                     }
                 },
                 {
+                    "source": "E:\\final app\\Contact-Tracer-App\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,6,7,2,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "157,206,251,57,105",
+                        "endColumns": "45,43,47,46,50",
+                        "endOffsets": "198,245,294,99,151"
+                    },
+                    "to": {
+                        "startLines": "196,197,198,199,200",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "10233,10279,10323,10371,10418",
+                        "endColumns": "45,43,47,46,50",
+                        "endOffsets": "10274,10318,10366,10413,10464"
+                    }
+                },
+                {
                     "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\03736cf4bc3669a69d502627b70a527e\\core-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,83,84,88,89,90,91,98,141,173,210",
@@ -202,6 +202,23 @@
                         "startOffsets": "14656,30083,30136,30189,30242,162683,162859,162981,163243,163438",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "14740,30131,30184,30237,30290,162744,162976,163037,163304,163500"
+                    }
+                },
+                {
+                    "source": "E:\\final app\\Contact-Tracer-App\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,9,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "17,535,606",
+                        "endColumns": "60,69,67",
+                        "endOffsets": "73,600,669"
+                    },
+                    "to": {
+                        "startLines": "632,668,681",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "38084,42884,44520",
+                        "endColumns": "60,69,67",
+                        "endOffsets": "38140,42949,44583"
                     }
                 },
                 {
@@ -243,6 +260,25 @@
                     }
                 },
                 {
+                    "source": "E:\\final app\\Contact-Tracer-App\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2,16,11,17,20,35,30,36,43,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "19,601,445,693,779,1371,1208,1470,1718,1563",
+                        "endLines": "9,16,14,17,27,35,33,36,47,41",
+                        "endColumns": "12,90,12,80,12,97,12,87,12,12",
+                        "endOffsets": "437,687,593,769,1198,1464,1363,1553,1997,1710"
+                    },
+                    "to": {
+                        "startLines": "692,700,701,705,2138,2146,2147,2151,2152,2157",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "45378,45794,45884,46034,139506,139923,140020,140177,140264,140544",
+                        "endLines": "699,700,704,705,2145,2146,2150,2151,2156,2159",
+                        "endColumns": "12,89,12,79,12,96,12,86,12,12",
+                        "endOffsets": "45789,45879,46029,46109,139918,140015,140172,140259,140539,140689"
+                    }
+                },
+                {
                     "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\afe191cbc0e59d55d320ac30040e2a7b\\jetified-play-services-base-9.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,21",
@@ -279,25 +315,6 @@
                     }
                 },
                 {
-                    "source": "E:\\updated\\Contact-Tracer-App\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2,16,11,17,20,35,30,36,43,39",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "19,601,445,693,779,1371,1208,1470,1718,1563",
-                        "endLines": "9,16,14,17,27,35,33,36,47,41",
-                        "endColumns": "12,90,12,80,12,97,12,87,12,12",
-                        "endOffsets": "437,687,593,769,1198,1464,1363,1553,1997,1710"
-                    },
-                    "to": {
-                        "startLines": "692,700,701,705,2138,2146,2147,2151,2152,2157",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "45378,45794,45884,46034,139506,139923,140020,140177,140264,140544",
-                        "endLines": "699,700,704,705,2145,2146,2150,2151,2156,2159",
-                        "endColumns": "12,89,12,79,12,96,12,86,12,12",
-                        "endOffsets": "45789,45879,46029,46109,139918,140015,140172,140259,140539,140689"
-                    }
-                },
-                {
                     "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\8493bed2e63cf9e02dc8d3487927010c\\recyclerview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "30,31,32,33,34,35,36,2",
@@ -314,23 +331,6 @@
                         "endLines": "418,419,420,428,429,430,550,4563",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "25266,25314,25370,26056,26132,26204,33316,294417"
-                    }
-                },
-                {
-                    "source": "E:\\updated\\Contact-Tracer-App\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,9,10",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "17,535,606",
-                        "endColumns": "60,69,67",
-                        "endOffsets": "73,600,669"
-                    },
-                    "to": {
-                        "startLines": "632,668,681",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "38084,42884,44520",
-                        "endColumns": "60,69,67",
-                        "endOffsets": "38140,42949,44583"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\updated\\Contact-Tracer-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "E:\\final app\\Contact-Tracer-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\03736cf4bc3669a69d502627b70a527e\\core-1.1.0\\res\\values-en-rGB\\values-en-rGB.xml",

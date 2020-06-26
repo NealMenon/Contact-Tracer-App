@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\updated\\Contact-Tracer-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
+            "outputFile": "E:\\final app\\Contact-Tracer-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
             "map": [
                 {
                     "source": "C:\\Program Files\\Android\\Android Studio\\plugins\\gradle\\lib\\gradle-3.3\\caches\\transforms-2\\files-2.1\\8cb65b9fc93d156945a7a37f098b156f\\jetified-play-services-basement-9.0.0\\res\\values-hy\\values.xml",

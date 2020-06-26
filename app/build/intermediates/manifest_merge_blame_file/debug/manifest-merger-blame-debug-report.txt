@@ -6,13 +6,13 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml
+8-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml
+9-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:28:5-67
-11-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:28:22-64
+11-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:29:5-67
+11-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:29:22-64
 12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 12-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\a8192c5df91c4f30074713e9e495ea4f\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:5-76
 12-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\a8192c5df91c4f30074713e9e495ea4f\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:22-73
@@ -30,52 +30,52 @@
 16-->[androidx.work:work-runtime:2.3.3] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\edc8b6813fea1d3d8f528c9d5989fc22\work-runtime-2.3.3\AndroidManifest.xml:28:22-74
 17
 18    <application
-18-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:5:5-26:19
+18-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:5:5-27:19
 19        android:allowBackup="true"
-19-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:6:9-35
+19-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:6:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.1.0] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:7:9-43
+22-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:7:9-43
 23        android:label="@string/app_name"
-23-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:8:9-41
+23-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:8:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:9:9-54
+24-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:9:9-54
 25        android:supportsRtl="true"
-25-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:10:9-35
+25-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:10:9-35
 26        android:theme="@style/AppTheme" >
-26-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:11:9-40
+26-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:11:9-40
 27        <activity android:name="com.example.contact_tracer_appv2.Device.covidnotsafe" />
-27-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:12:9-66
-27-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:12:19-54
+27-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:12:9-66
+27-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:12:19-54
 28        <activity android:name="com.example.contact_tracer_appv2.Device.covidsafe" />
-28-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:13:9-54
-28-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:13:19-51
+28-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:13:9-54
+28-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:13:19-51
 29        <activity android:name="com.example.contact_tracer_appv2.Device.covidpositive" />
-29-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:14:9-58
-29-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:14:19-55
+29-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:14:9-58
+29-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:14:19-55
 30        <activity android:name="com.example.contact_tracer_appv2.MainActivity" >
-30-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:15:9-21:20
-30-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:15:19-47
+30-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:15:9-21:20
+30-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:15:19-47
 31            <intent-filter>
-31-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:16:13-20:29
+31-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:16:13-20:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:17:17-69
-32-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:17:25-66
+32-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:17:17-69
+32-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:17:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:19:17-77
-34-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:19:27-74
+34-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:19:17-77
+34-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:19:27-74
 35            </intent-filter>
 36        </activity>
 37
 38        <meta-data
-38-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:23:9-25:71
+38-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:23:9-25:71
 39            android:name="com.google.android.nearby.messages.API_KEY"
-39-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:24:13-70
-40            android:value="AIzaSyC3DeKUQjiEG5IiZWxnOn1gda9AFWHgNVc" />
-40-->E:\updated\Contact-Tracer-App\app\src\main\AndroidManifest.xml:25:13-68
+39-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:24:13-70
+40            android:value="AIzaSyCHKJt1xS9Ml39tzOqP6FVx0YLfEXd4zOg" />
+40-->E:\final app\Contact-Tracer-App\app\src\main\AndroidManifest.xml:25:13-68
 41
 42        <provider
 42-->[com.amitshekhar.android:debug-db:1.0.6] C:\Program Files\Android\Android Studio\plugins\gradle\lib\gradle-3.3\caches\transforms-2\files-2.1\531129a92888b7f56616e769c1d84844\jetified-debug-db-1.0.6\AndroidManifest.xml:12:9-16:40
